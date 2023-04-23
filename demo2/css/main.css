@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+video {
+  max-width: 100%;
+  width: 320px;
+}
+
+.progress {
+  position: relative;
+  top: 30px;
+  width: 300px;
+  height: 25px;
+  line-height: 25px;
+  margin:auto;
+  text-align: center;
+  border: 2px solid rgb(3, 101, 100);
+}
+
+.percent {
+  position: relative;
+  z-index:100;
+}
+
+.probg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 25px;
+  background-color: rgb(28, 170, 221);
+  width: 0px;
+}
