@@ -1,0 +1,1118 @@
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: Creating Peer connection as initiator? true 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: Creating Peer connection as initiator? false 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: Creating AfIrnZJDGbt8By3yAAAB Data Channel 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: onJsonChannelCreated: {} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: onMessageChannelCreated: {} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: onDataChannelCreated: {} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: xpcNynv2qxkQ7zFpAAAA Creating an offer 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 6561059977874904013 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:OS+F\r\na=ice-pwd:rLqb1VSrBNQEbJnn3uz7WmlQ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D0:42:42:67:E1:63:C4:AC:8A:9F:02:24:E3:EC:C6:70:B0:FF:86:90:09:A8:84:2E:36:78:AE:69:7B:88:6D:FD\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: Got xpcNynv2qxkQ7zFpAAAA offer. Sending answer to peer. 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 6081055428120054300 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:M6Cg\r\na=ice-pwd:KOtZUD9+53I9If7+ujc0fxI7\r\na=ice-options:trickle\r\na=fingerprint:sha-256 6B:8E:69:E1:30:89:C9:31:31:BF:7F:F9:C9:D1:20:91:DD:27:6F:C5:03:28:D3:87:A3:02:C9:E0:54:61:2C:47\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAAB local session created: {"sdp":"v=0\r\no=- 6081055428120054300 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:M6Cg\r\na=ice-pwd:KOtZUD9+53I9If7+ujc0fxI7\r\na=ice-options:trickle\r\na=fingerprint:sha-256 6B:8E:69:E1:30:89:C9:31:31:BF:7F:F9:C9:D1:20:91:DD:27:6F:C5:03:28:D3:87:A3:02:C9:E0:54:61:2C:47\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:538076054 1 udp 2122260223 192.168.26.1 57961 typ host generation 0 ufrag M6Cg network-id 2"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3291353732 1 udp 2122129151 192.168.137.1 57963 typ host generation 0 ufrag M6Cg network-id 1 network-cost 10"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2757049286 1 udp 2122063615 192.168.6.234 57964 typ host generation 0 ufrag M6Cg network-id 4 network-cost 10"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3336258254 1 udp 2122194687 192.168.186.1 57962 typ host generation 0 ufrag M6Cg network-id 3"} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: xpcNynv2qxkQ7zFpAAAA Got AfIrnZJDGbt8By3yAAAB answer. 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2629146433 1 udp 2122260223 192.168.26.1 57957 typ host generation 0 ufrag OS+F network-id 2"} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4192438182 1 udp 2122194687 192.168.186.1 57958 typ host generation 0 ufrag OS+F network-id 3"} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4149903853 1 udp 2122063615 192.168.6.234 57960 typ host generation 0 ufrag OS+F network-id 4 network-cost 10"} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1877531256 1 udp 2122129151 192.168.137.1 57959 typ host generation 0 ufrag OS+F network-id 1 network-cost 10"} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: End of candidates. 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: End of candidates. 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: AfIrnZJDGbt8By3yAAABfile channel opened! 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: AfIrnZJDGbt8By3yAAABmessage channel opened! 
+2023/4/23 16:46:19: Message from xpcNynv2qxkQ7zFpAAAA: AfIrnZJDGbt8By3yAAABjson channel opened! 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: onDataChannelCreated: {} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAABfile channel opened! 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: onJsonChannelCreated: {} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAABjson channel opened! 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: onMessageChannelCreated: {} 
+2023/4/23 16:46:19: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAABmessage channel opened! 
+2023/4/23 16:47:18: Message from xpcNynv2qxkQ7zFpAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 16:48:01: Message from xpcNynv2qxkQ7zFpAAAA: Received {} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: Creating Peer connection as initiator? true 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: Creating WekTWeFoRy88wPl8AAAC Data Channel 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: onDataChannelCreated: {} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: onJsonChannelCreated: {} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: onMessageChannelCreated: {} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: xpcNynv2qxkQ7zFpAAAA Creating an offer 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4311352618793005801 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:0DbQ\r\na=ice-pwd:eRLHfWxDIysKv8pKcijUpHjp\r\na=ice-options:trickle\r\na=fingerprint:sha-256 94:11:57:4F:0E:E2:2A:7E:3E:2A:5E:8B:B4:91:31:66:9F:40:78:19:48:59:E0:07:74:60:32:57:F5:4A:00:CF\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3033901933 1 udp 2122260223 192.168.26.1 53589 typ host generation 0 ufrag 0DbQ network-id 2"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1377602101 1 udp 2122194687 192.168.186.1 53590 typ host generation 0 ufrag 0DbQ network-id 3"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1357503103 1 udp 2122129151 192.168.137.1 53591 typ host generation 0 ufrag 0DbQ network-id 1 network-cost 10"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:814936893 1 udp 2122063615 192.168.6.234 53592 typ host generation 0 ufrag 0DbQ network-id 4 network-cost 10"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3390720501 1 tcp 1518280447 192.168.26.1 9 typ host tcptype active generation 0 ufrag 0DbQ network-id 2"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:752052397 1 tcp 1518214911 192.168.186.1 9 typ host tcptype active generation 0 ufrag 0DbQ network-id 3"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:774256871 1 tcp 1518149375 192.168.137.1 9 typ host tcptype active generation 0 ufrag 0DbQ network-id 1 network-cost 10"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1314722213 1 tcp 1518083839 192.168.6.234 9 typ host tcptype active generation 0 ufrag 0DbQ network-id 4 network-cost 10"} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:09: Message from xpcNynv2qxkQ7zFpAAAA: End of candidates. 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: Creating Peer connection as initiator? false 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: Creating Peer connection as initiator? false 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: Got xpcNynv2qxkQ7zFpAAAA offer. Sending answer to peer. 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: sending message {"type":"answer","sdp":"v=0\r\no=- 9143928690433973245 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:sBpc\r\na=ice-pwd:blRzSHrnFjoZPUrbrHtuA7E2\r\na=ice-options:trickle\r\na=fingerprint:sha-256 04:83:FD:F4:E4:C4:C9:C1:76:07:BF:50:F6:4E:80:AE:A5:2D:B5:B2:90:67:34:66:19:A3:8D:A2:18:B5:01:35\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:49:10: Message from xpcNynv2qxkQ7zFpAAAA: xpcNynv2qxkQ7zFpAAAA Got WekTWeFoRy88wPl8AAAC answer. 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1262277548 1 udp 2113937151 9647caf5-9384-4f62-8bc8-555fefa8fff8.local 61582 typ host generation 0 ufrag sBpc network-cost 999"} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAAC local session created: {"sdp":"v=0\r\no=- 9143928690433973245 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:sBpc\r\na=ice-pwd:blRzSHrnFjoZPUrbrHtuA7E2\r\na=ice-options:trickle\r\na=fingerprint:sha-256 04:83:FD:F4:E4:C4:C9:C1:76:07:BF:50:F6:4E:80:AE:A5:2D:B5:B2:90:67:34:66:19:A3:8D:A2:18:B5:01:35\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: End of candidates. 
+2023/4/23 16:49:10: Message from xpcNynv2qxkQ7zFpAAAA: WekTWeFoRy88wPl8AAACfile channel opened! 
+2023/4/23 16:49:10: Message from xpcNynv2qxkQ7zFpAAAA: WekTWeFoRy88wPl8AAACjson channel opened! 
+2023/4/23 16:49:10: Message from xpcNynv2qxkQ7zFpAAAA: WekTWeFoRy88wPl8AAACmessage channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACfile channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onDataChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onJsonChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACjson channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: xpcNynv2qxkQ7zFpAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onMessageChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACmessage channel opened! 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: Creating Peer connection as initiator? true 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: Creating WekTWeFoRy88wPl8AAAC Data Channel 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: onDataChannelCreated: {} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: onJsonChannelCreated: {} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: onMessageChannelCreated: {} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAAB Creating an offer 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"offer","sdp":"v=0\r\no=- 7885022691130429827 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:/kPS\r\na=ice-pwd:wKI62N3T334F3TC/k8wK9pst\r\na=ice-options:trickle\r\na=fingerprint:sha-256 30:F9:C0:3F:5B:7C:47:FC:EB:7E:86:AE:B3:DD:FF:15:8A:9E:8A:C0:83:2C:74:4C:74:32:46:C3:4D:FC:DF:23\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1476578600 1 udp 2122260223 192.168.26.1 53810 typ host generation 0 ufrag /kPS network-id 2"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1028971983 1 udp 2122194687 192.168.186.1 53811 typ host generation 0 ufrag /kPS network-id 3"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2875162641 1 udp 2122129151 192.168.137.1 53812 typ host generation 0 ufrag /kPS network-id 1 network-cost 10"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:871226244 1 udp 2122063615 192.168.6.234 53813 typ host generation 0 ufrag /kPS network-id 4 network-cost 10"} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: Got AfIrnZJDGbt8By3yAAAB offer. Sending answer to peer. 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: sending message {"type":"answer","sdp":"v=0\r\no=- 2887681776903756704 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:M7Je\r\na=ice-pwd:uFX7PZG6W1+OAXoI/9QYKR20\r\na=ice-options:trickle\r\na=fingerprint:sha-256 A8:FB:97:09:DE:42:24:77:9A:52:2A:5E:74:E0:56:C1:7C:D0:E1:BE:31:7F:DA:A8:B4:BD:E7:78:6A:F8:2A:CF\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAAC local session created: {"sdp":"v=0\r\no=- 2887681776903756704 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:M7Je\r\na=ice-pwd:uFX7PZG6W1+OAXoI/9QYKR20\r\na=ice-options:trickle\r\na=fingerprint:sha-256 A8:FB:97:09:DE:42:24:77:9A:52:2A:5E:74:E0:56:C1:7C:D0:E1:BE:31:7F:DA:A8:B4:BD:E7:78:6A:F8:2A:CF\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:494235134 1 udp 2113937151 9647caf5-9384-4f62-8bc8-555fefa8fff8.local 61584 typ host generation 0 ufrag M7Je network-cost 999"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: AfIrnZJDGbt8By3yAAAB Got WekTWeFoRy88wPl8AAAC answer. 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2796034492 1 tcp 1518280447 192.168.26.1 9 typ host tcptype active generation 0 ufrag /kPS network-id 2"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3288205659 1 tcp 1518214911 192.168.186.1 9 typ host tcptype active generation 0 ufrag /kPS network-id 3"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1442141317 1 tcp 1518149375 192.168.137.1 9 typ host tcptype active generation 0 ufrag /kPS network-id 1 network-cost 10"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3443986192 1 tcp 1518083839 192.168.6.234 9 typ host tcptype active generation 0 ufrag /kPS network-id 4 network-cost 10"} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: End of candidates. 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: End of candidates. 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: WekTWeFoRy88wPl8AAACfile channel opened! 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: WekTWeFoRy88wPl8AAACjson channel opened! 
+2023/4/23 16:49:10: Message from AfIrnZJDGbt8By3yAAAB: WekTWeFoRy88wPl8AAACmessage channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: AfIrnZJDGbt8By3yAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onDataChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACfile channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: AfIrnZJDGbt8By3yAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onJsonChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACjson channel opened! 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: AfIrnZJDGbt8By3yAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: onMessageChannelCreated: {} 
+2023/4/23 16:49:10: Message from WekTWeFoRy88wPl8AAAC: WekTWeFoRy88wPl8AAACmessage channel opened! 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: Creating Peer connection as initiator? false 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: Creating Peer connection as initiator? true 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: Creating 9-YvACeEu0AOyV-6AAAB Data Channel 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: onDataChannelCreated: {} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: onJsonChannelCreated: {} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: onMessageChannelCreated: {} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: oI4XApvcJsRDuJTLAAAA Creating an offer 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 7049565424193797615 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:WR8h\r\na=ice-pwd:TBlcyiyvuIJdTlTSwm1brnKm\r\na=ice-options:trickle\r\na=fingerprint:sha-256 5F:7C:9B:5A:D1:26:E3:49:BE:93:80:0C:EE:07:75:C3:FD:FB:C6:93:2C:1B:3A:E6:44:64:3C:6A:4C:05:6D:5D\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: Got oI4XApvcJsRDuJTLAAAA offer. Sending answer to peer. 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:460404696 1 udp 2122260223 192.168.26.1 63175 typ host generation 0 ufrag WR8h network-id 2"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4256700032 1 udp 2122194687 192.168.186.1 63176 typ host generation 0 ufrag WR8h network-id 3"} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: 9-YvACeEu0AOyV-6AAAB local session created: {"sdp":"v=0\r\no=- 1505470914112494715 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:dTCE\r\na=ice-pwd:QFOrneoJn9imooLEduZ0MVJi\r\na=ice-options:trickle\r\na=fingerprint:sha-256 91:A5:A3:8B:06:B0:72:D8:B0:56:93:71:9A:29:91:7B:28:34:55:5B:BB:E8:C1:B9:E9:89:70:F4:22:0B:B6:24\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4283254474 1 udp 2122129151 192.168.137.1 63177 typ host generation 0 ufrag WR8h network-id 1 network-cost 10"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2671144840 1 udp 2122063615 192.168.6.234 63178 typ host generation 0 ufrag WR8h network-id 4 network-cost 10"} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1505470914112494715 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:dTCE\r\na=ice-pwd:QFOrneoJn9imooLEduZ0MVJi\r\na=ice-options:trickle\r\na=fingerprint:sha-256 91:A5:A3:8B:06:B0:72:D8:B0:56:93:71:9A:29:91:7B:28:34:55:5B:BB:E8:C1:B9:E9:89:70:F4:22:0B:B6:24\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: oI4XApvcJsRDuJTLAAAA Got 9-YvACeEu0AOyV-6AAAB answer. 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3498806894 1 udp 2113937151 13b02c6a-4063-413f-93d9-4df094f2a767.local 49826 typ host generation 0 ufrag dTCE network-cost 999"} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from 9-YvACeEu0AOyV-6AAAB: End of candidates. 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1707005248 1 tcp 1518280447 192.168.26.1 9 typ host tcptype active generation 0 ufrag WR8h network-id 2"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2205676568 1 tcp 1518214911 192.168.186.1 9 typ host tcptype active generation 0 ufrag WR8h network-id 3"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: End of candidates. 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2172822610 1 tcp 1518149375 192.168.137.1 9 typ host tcptype active generation 0 ufrag WR8h network-id 1 network-cost 10"} 
+2023/4/23 16:54:32: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3791228176 1 tcp 1518083839 192.168.6.234 9 typ host tcptype active generation 0 ufrag WR8h network-id 4 network-cost 10"} 
+2023/4/23 16:54:33: Message from oI4XApvcJsRDuJTLAAAA: 9-YvACeEu0AOyV-6AAABfile channel opened! 
+2023/4/23 16:54:33: Message from oI4XApvcJsRDuJTLAAAA: 9-YvACeEu0AOyV-6AAABjson channel opened! 
+2023/4/23 16:54:33: Message from oI4XApvcJsRDuJTLAAAA: 9-YvACeEu0AOyV-6AAABmessage channel opened! 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: 9-YvACeEu0AOyV-6AAABfile channel opened! 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: onDataChannelCreated: {} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: onJsonChannelCreated: {} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: 9-YvACeEu0AOyV-6AAABjson channel opened! 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: onMessageChannelCreated: {} 
+2023/4/23 16:54:33: Message from 9-YvACeEu0AOyV-6AAAB: 9-YvACeEu0AOyV-6AAABmessage channel opened! 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: Creating Peer connection as initiator? true 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: Creating 9JczBWtq1k-qE95oAAAC Data Channel 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: onDataChannelCreated: {} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: onMessageChannelCreated: {} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 3471241705295719828 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:f2mc\r\na=ice-pwd:lk/wD80DJKeiFf5M4TbOCh9W\r\na=ice-options:trickle\r\na=fingerprint:sha-256 AB:C9:23:75:63:5F:EF:F6:EC:40:DC:38:7E:24:62:95:70:C0:F9:15:E7:4F:96:29:1E:79:83:98:A9:DB:FB:04\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: onJsonChannelCreated: {} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2880805724 1 udp 2122260223 192.168.26.1 49665 typ host generation 0 ufrag f2mc network-id 2"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: oI4XApvcJsRDuJTLAAAA Creating an offer 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3471018939 1 udp 2122194687 192.168.186.1 49666 typ host generation 0 ufrag f2mc network-id 3"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1491654245 1 udp 2122129151 192.168.137.1 49667 typ host generation 0 ufrag f2mc network-id 1 network-cost 10"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3227160048 1 udp 2122063615 192.168.6.234 49668 typ host generation 0 ufrag f2mc network-id 4 network-cost 10"} 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: Creating Peer connection as initiator? false 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: Creating Peer connection as initiator? false 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: Got oI4XApvcJsRDuJTLAAAA offer. Sending answer to peer. 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: 9JczBWtq1k-qE95oAAAC local session created: {"sdp":"v=0\r\no=- 2018854960008006218 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:uKnY\r\na=ice-pwd:FAUX6h19lGQ/ixocVSM6zniN\r\na=ice-options:trickle\r\na=fingerprint:sha-256 B5:12:75:F9:6D:BE:85:C8:96:E0:C6:55:F2:B4:D4:D1:E5:F1:C7:5D:9E:E7:13:BA:90:6E:B5:71:77:03:DA:85\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: sending message {"type":"answer","sdp":"v=0\r\no=- 2018854960008006218 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:uKnY\r\na=ice-pwd:FAUX6h19lGQ/ixocVSM6zniN\r\na=ice-options:trickle\r\na=fingerprint:sha-256 B5:12:75:F9:6D:BE:85:C8:96:E0:C6:55:F2:B4:D4:D1:E5:F1:C7:5D:9E:E7:13:BA:90:6E:B5:71:77:03:DA:85\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: oI4XApvcJsRDuJTLAAAA Got 9JczBWtq1k-qE95oAAAC answer. 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:754021845 1 udp 2113937151 0269a906-8834-4620-aaef-59894103dc23.local 55186 typ host generation 0 ufrag uKnY network-cost 999"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1428115400 1 tcp 1518280447 192.168.26.1 9 typ host tcptype active generation 0 ufrag f2mc network-id 2"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:810114863 1 tcp 1518214911 192.168.186.1 9 typ host tcptype active generation 0 ufrag f2mc network-id 3"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2789343985 1 tcp 1518149375 192.168.137.1 9 typ host tcptype active generation 0 ufrag f2mc network-id 1 network-cost 10"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1055938916 1 tcp 1518083839 192.168.6.234 9 typ host tcptype active generation 0 ufrag f2mc network-id 4 network-cost 10"} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:34: Message from oI4XApvcJsRDuJTLAAAA: End of candidates. 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: End of candidates. 
+2023/4/23 16:55:34: Message from 9JczBWtq1k-qE95oAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:55:35: Message from oI4XApvcJsRDuJTLAAAA: 9JczBWtq1k-qE95oAAACfile channel opened! 
+2023/4/23 16:55:35: Message from oI4XApvcJsRDuJTLAAAA: 9JczBWtq1k-qE95oAAACjson channel opened! 
+2023/4/23 16:55:35: Message from oI4XApvcJsRDuJTLAAAA: 9JczBWtq1k-qE95oAAACmessage channel opened! 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: onDataChannelCreated: {} 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: 9JczBWtq1k-qE95oAAACfile channel opened! 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: onJsonChannelCreated: {} 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: 9JczBWtq1k-qE95oAAACjson channel opened! 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: 9JczBWtq1k-qE95oAAACmessage channel opened! 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: oI4XApvcJsRDuJTLAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:55:35: Message from 9JczBWtq1k-qE95oAAAC: onMessageChannelCreated: {} 
+2023/4/23 16:55:55: Message from oI4XApvcJsRDuJTLAAAA: 9JczBWtq1k-qE95oAAAC dataChannel is closed 
+2023/4/23 16:55:55: Message from oI4XApvcJsRDuJTLAAAA: 9JczBWtq1k-qE95oAAACfile channel opened! 
+2023/4/23 16:55:55: Message from 9JczBWtq1k-qE95oAAAC: 9JczBWtq1k-qE95oAAACfile channel opened! 
+2023/4/23 16:56:33: Message from 4SDUv5NZdoTEPnDPAAAE: Creating Peer connection as initiator? false 
+2023/4/23 16:56:33: Message from 4SDUv5NZdoTEPnDPAAAE: Creating Peer connection as initiator? false 
+2023/4/23 16:56:38: Message from 4SDUv5NZdoTEPnDPAAAE: P4vqdMFo1tfL43WgAAAD peerConnection is closed 
+2023/4/23 16:57:17: Message from 81E3zF48WnKIntHrAAAA: Creating Peer connection as initiator? true 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: Creating te5OwdqhpUztaeGfAAAB Data Channel 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: onDataChannelCreated: {} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: onJsonChannelCreated: {} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: 81E3zF48WnKIntHrAAAA Creating an offer 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: onMessageChannelCreated: {} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 5061139372838510582 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:IcXr\r\na=ice-pwd:/gXGC2+zqd8wbPbXGMgmEfar\r\na=ice-options:trickle\r\na=fingerprint:sha-256 FD:44:CE:77:D4:A0:AE:1C:48:B3:FA:50:8F:28:F7:85:64:2D:0A:20:41:18:F1:E1:8A:45:B6:3F:09:F8:C8:32\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1597322370 1 udp 2122260223 192.168.26.1 51379 typ host generation 0 ufrag IcXr network-id 2"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3120305626 1 udp 2122194687 192.168.186.1 51380 typ host generation 0 ufrag IcXr network-id 3"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3137947024 1 udp 2122129151 192.168.137.1 51381 typ host generation 0 ufrag IcXr network-id 1 network-cost 10"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3681709266 1 udp 2122063615 192.168.6.234 51382 typ host generation 0 ufrag IcXr network-id 4 network-cost 10"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:570086938 1 tcp 1518280447 192.168.26.1 9 typ host tcptype active generation 0 ufrag IcXr network-id 2"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3342071618 1 tcp 1518214911 192.168.186.1 9 typ host tcptype active generation 0 ufrag IcXr network-id 3"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3318130440 1 tcp 1518149375 192.168.137.1 9 typ host tcptype active generation 0 ufrag IcXr network-id 1 network-cost 10"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2780663370 1 tcp 1518083839 192.168.6.234 9 typ host tcptype active generation 0 ufrag IcXr network-id 4 network-cost 10"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: End of candidates. 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: Creating Peer connection as initiator? false 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: Got 81E3zF48WnKIntHrAAAA offer. Sending answer to peer. 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: te5OwdqhpUztaeGfAAAB local session created: {"sdp":"v=0\r\no=- 2487061375898215885 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:5gu4\r\na=ice-pwd:0zmx88jxP9NaPD1fIEJHOsHn\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D1:DE:74:60:F4:71:B1:78:35:0F:40:01:B1:DA:7C:DC:71:C6:7A:06:8D:F3:2A:E9:82:64:A5:2A:07:56:3D:BE\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1601336792 1 udp 2113937151 052976b6-9c4d-4205-8e40-6e4c5c8f71cd.local 57171 typ host generation 0 ufrag 5gu4 network-cost 999"} 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: 81E3zF48WnKIntHrAAAA Got te5OwdqhpUztaeGfAAAB answer. 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 2487061375898215885 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:5gu4\r\na=ice-pwd:0zmx88jxP9NaPD1fIEJHOsHn\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D1:DE:74:60:F4:71:B1:78:35:0F:40:01:B1:DA:7C:DC:71:C6:7A:06:8D:F3:2A:E9:82:64:A5:2A:07:56:3D:BE\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: End of candidates. 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: te5OwdqhpUztaeGfAAABfile channel opened! 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: te5OwdqhpUztaeGfAAABjson channel opened! 
+2023/4/23 16:57:18: Message from 81E3zF48WnKIntHrAAAA: te5OwdqhpUztaeGfAAABmessage channel opened! 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: 81E3zF48WnKIntHrAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: onDataChannelCreated: {} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: te5OwdqhpUztaeGfAAABfile channel opened! 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: 81E3zF48WnKIntHrAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: onJsonChannelCreated: {} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: te5OwdqhpUztaeGfAAABjson channel opened! 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: 81E3zF48WnKIntHrAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: onMessageChannelCreated: {} 
+2023/4/23 16:57:18: Message from te5OwdqhpUztaeGfAAAB: te5OwdqhpUztaeGfAAABmessage channel opened! 
+2023/4/23 16:59:12: Message from te5OwdqhpUztaeGfAAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 16:59:13: Message from te5OwdqhpUztaeGfAAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 16:59:14: Message from te5OwdqhpUztaeGfAAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 16:59:14: Message from te5OwdqhpUztaeGfAAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 16:59:24: Message from te5OwdqhpUztaeGfAAAB: 81E3zF48WnKIntHrAAAA dataChannel is closed 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: Creating 1dWmgaewCNldHV30AAAB Data Channel 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: onDataChannelCreated: {} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: C_E67JfadhOZbv6MAAAA Creating an offer 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 5545851305011093302 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:uygp\r\na=ice-pwd:6KV0EFOTyH6ltQ62iU0e9/4m\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D7:13:F3:F8:5D:45:E5:14:7F:29:DD:41:EA:34:A0:57:70:8C:04:28:34:DA:9E:7E:AF:35:38:70:40:48:1D:C9\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: Got C_E67JfadhOZbv6MAAAA offer. Sending answer to peer. 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: 1dWmgaewCNldHV30AAAB local session created: {"sdp":"v=0\r\no=- 5961446670834939289 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:v64W\r\na=ice-pwd:6XeexvL6C62Ube5wS9VQ6RKm\r\na=ice-options:trickle\r\na=fingerprint:sha-256 99:79:F5:5C:5D:4F:55:54:C9:57:67:79:AE:B3:EC:3F:BA:48:7E:B2:4F:9A:5D:12:75:0E:FC:2F:D1:F1:26:07\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 5961446670834939289 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:v64W\r\na=ice-pwd:6XeexvL6C62Ube5wS9VQ6RKm\r\na=ice-options:trickle\r\na=fingerprint:sha-256 99:79:F5:5C:5D:4F:55:54:C9:57:67:79:AE:B3:EC:3F:BA:48:7E:B2:4F:9A:5D:12:75:0E:FC:2F:D1:F1:26:07\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: C_E67JfadhOZbv6MAAAA Got 1dWmgaewCNldHV30AAAB answer. 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3553576281 1 udp 2113937151 435ecb58-2f87-4c98-a0de-c6634869ffdf.local 49961 typ host generation 0 ufrag v64W network-cost 999"} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1649250471 1 udp 2113937151 0bea0c8d-8a0d-44c2-b3c5-9655df20ff9d.local 49959 typ host generation 0 ufrag uygp network-cost 999"} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: End of candidates. 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: End of candidates. 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: 1dWmgaewCNldHV30AAABfile channel opened! 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: C_E67JfadhOZbv6MAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: 1dWmgaewCNldHV30AAABmessage channel opened! 
+2023/4/23 17:12:37: Message from C_E67JfadhOZbv6MAAAA: 1dWmgaewCNldHV30AAABjson channel opened! 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: onDataChannelCreated: {} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: 1dWmgaewCNldHV30AAABfile channel opened! 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: C_E67JfadhOZbv6MAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: onJsonChannelCreated: {} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: 1dWmgaewCNldHV30AAABjson channel opened! 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: C_E67JfadhOZbv6MAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: 1dWmgaewCNldHV30AAABmessage channel opened! 
+2023/4/23 17:12:37: Message from 1dWmgaewCNldHV30AAAB: onMessageChannelCreated: {} 
+2023/4/23 17:12:41: Message from 1dWmgaewCNldHV30AAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 17:12:57: Message from 1dWmgaewCNldHV30AAAB: The key is not existed 20C-Curse Of The Golden Flower(qobuz).zip 
+2023/4/23 17:12:59: Message from 1dWmgaewCNldHV30AAAB: Received {} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: Creating Sgx9qzehlNt06kecAAAB Data Channel 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: onDataChannelCreated: {} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: _u9KDXqnnUsgzSzWAAAA Creating an offer 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4177989992486490111 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:IS9R\r\na=ice-pwd:5cEKFxDK2qm77H9itcFpHybJ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D3:78:CF:F6:D0:33:9E:4A:F3:8B:8B:15:52:EF:F0:44:5C:6E:29:36:12:6E:09:E6:D9:1B:B3:22:13:CE:C1:AD\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Got _u9KDXqnnUsgzSzWAAAA offer. Sending answer to peer. 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Sgx9qzehlNt06kecAAAB local session created: {"sdp":"v=0\r\no=- 6098746438947097662 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:V3rE\r\na=ice-pwd:7cjxy674GIf+1Gbi9eULkJfF\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CF:36:33:0A:13:58:46:5B:82:1D:E3:AB:B9:A6:AD:58:8B:41:B9:DB:F1:AB:89:6E:F0:99:60:47:6D:52:2D:E4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2361965624 1 udp 2113937151 0b3bbfe8-1159-449b-9f71-ed92ed7001bb.local 53119 typ host generation 0 ufrag IS9R network-cost 999"} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 6098746438947097662 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:V3rE\r\na=ice-pwd:7cjxy674GIf+1Gbi9eULkJfF\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CF:36:33:0A:13:58:46:5B:82:1D:E3:AB:B9:A6:AD:58:8B:41:B9:DB:F1:AB:89:6E:F0:99:60:47:6D:52:2D:E4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: _u9KDXqnnUsgzSzWAAAA Got Sgx9qzehlNt06kecAAAB answer. 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1123494386 1 udp 2113937151 996a5842-a662-47bb-b140-ee039248c2be.local 53121 typ host generation 0 ufrag V3rE network-cost 999"} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: End of candidates. 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: End of candidates. 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: Sgx9qzehlNt06kecAAABfile channel opened! 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: _u9KDXqnnUsgzSzWAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Sgx9qzehlNt06kecAAABfile channel opened! 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: onDataChannelCreated: {} 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: Sgx9qzehlNt06kecAAABjson channel opened! 
+2023/4/23 17:17:01: Message from _u9KDXqnnUsgzSzWAAAA: Sgx9qzehlNt06kecAAABmessage channel opened! 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: _u9KDXqnnUsgzSzWAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Sgx9qzehlNt06kecAAABjson channel opened! 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: _u9KDXqnnUsgzSzWAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:17:01: Message from Sgx9qzehlNt06kecAAAB: Sgx9qzehlNt06kecAAABmessage channel opened! 
+2023/4/23 17:17:05: Message from _u9KDXqnnUsgzSzWAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 17:18:01: Message from _u9KDXqnnUsgzSzWAAAA: Received {} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: onDataChannelCreated: {} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: Creating igXROZkU3fxFhStOAAAB Data Channel 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: __BCO5sK5VKPcwcjAAAA Creating an offer 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 155990803150995725 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:MJKi\r\na=ice-pwd:ZgzkHGL2d8HT6xQe+AB80zHM\r\na=ice-options:trickle\r\na=fingerprint:sha-256 08:39:3B:C0:6B:56:16:FC:01:E3:6B:80:D9:92:9C:CE:B7:F0:64:54:2F:26:18:0A:AF:98:1E:41:18:27:6E:CC\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: Got __BCO5sK5VKPcwcjAAAA offer. Sending answer to peer. 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: igXROZkU3fxFhStOAAAB local session created: {"sdp":"v=0\r\no=- 8065767994625001245 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:3Cz3\r\na=ice-pwd:nzJI6vQuu4DZ2NiNYkcWjtNq\r\na=ice-options:trickle\r\na=fingerprint:sha-256 31:BF:36:0D:9A:28:0D:1C:F1:54:C1:39:63:2A:3D:C0:3C:DE:F1:2B:6B:A7:5E:5D:28:F7:50:F1:A6:B2:2A:C2\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 8065767994625001245 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:3Cz3\r\na=ice-pwd:nzJI6vQuu4DZ2NiNYkcWjtNq\r\na=ice-options:trickle\r\na=fingerprint:sha-256 31:BF:36:0D:9A:28:0D:1C:F1:54:C1:39:63:2A:3D:C0:3C:DE:F1:2B:6B:A7:5E:5D:28:F7:50:F1:A6:B2:2A:C2\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:657670575 1 udp 2113937151 d1e4fe55-3a0f-40eb-a50d-e9a5c6559479.local 63667 typ host generation 0 ufrag MJKi network-cost 999"} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: __BCO5sK5VKPcwcjAAAA Got igXROZkU3fxFhStOAAAB answer. 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:212278228 1 udp 2113937151 04f35716-432d-4ac7-a93c-4dbdc2f8112e.local 63669 typ host generation 0 ufrag 3Cz3 network-cost 999"} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: End of candidates. 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: End of candidates. 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: igXROZkU3fxFhStOAAABfile channel opened! 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: igXROZkU3fxFhStOAAABjson channel opened! 
+2023/4/23 17:20:26: Message from __BCO5sK5VKPcwcjAAAA: igXROZkU3fxFhStOAAABmessage channel opened! 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: __BCO5sK5VKPcwcjAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: onDataChannelCreated: {} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: igXROZkU3fxFhStOAAABfile channel opened! 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: __BCO5sK5VKPcwcjAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: igXROZkU3fxFhStOAAABjson channel opened! 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: __BCO5sK5VKPcwcjAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:20:26: Message from igXROZkU3fxFhStOAAAB: igXROZkU3fxFhStOAAABmessage channel opened! 
+2023/4/23 17:20:33: Message from igXROZkU3fxFhStOAAAB: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 17:21:18: Message from igXROZkU3fxFhStOAAAB: Received {} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: Creating 1P764lUT1DYaUGIjAAAB Data Channel 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 3469635266169742852 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:YZZM\r\na=ice-pwd:1qccuEhgAVUZsGtCAt05+bXx\r\na=ice-options:trickle\r\na=fingerprint:sha-256 1F:3D:D6:27:4B:4D:E4:97:A0:90:18:4C:7E:AD:95:76:D6:60:8F:73:51:2B:F2:49:AF:3D:88:D7:42:07:9D:4B\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: onDataChannelCreated: {} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: coSOIIyIbGxyhmmRAAAA Creating an offer 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: Got coSOIIyIbGxyhmmRAAAA offer. Sending answer to peer. 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: 1P764lUT1DYaUGIjAAAB local session created: {"sdp":"v=0\r\no=- 5091217343329183935 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:NPIq\r\na=ice-pwd:qJ+Hl2FDK03iY9sqQ6xrgmp4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 5B:E9:B2:FF:FF:4C:DD:27:D1:8B:2C:B5:8D:15:00:3E:85:50:FA:39:01:C5:15:F3:3E:8A:11:7E:45:18:31:D4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 5091217343329183935 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:NPIq\r\na=ice-pwd:qJ+Hl2FDK03iY9sqQ6xrgmp4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 5B:E9:B2:FF:FF:4C:DD:27:D1:8B:2C:B5:8D:15:00:3E:85:50:FA:39:01:C5:15:F3:3E:8A:11:7E:45:18:31:D4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: coSOIIyIbGxyhmmRAAAA Got 1P764lUT1DYaUGIjAAAB answer. 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:59603316 1 udp 2113937151 763081b3-03f5-4424-aafa-69929f78b327.local 52279 typ host generation 0 ufrag NPIq network-cost 999"} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2371094266 1 udp 2113937151 6b68478d-34fc-4a5e-9461-3c850765ecbc.local 52281 typ host generation 0 ufrag YZZM network-cost 999"} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: End of candidates. 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: End of candidates. 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: 1P764lUT1DYaUGIjAAABfile channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: coSOIIyIbGxyhmmRAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: 1P764lUT1DYaUGIjAAABjson channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: onDataChannelCreated: {} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: 1P764lUT1DYaUGIjAAABfile channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: coSOIIyIbGxyhmmRAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from coSOIIyIbGxyhmmRAAAA: 1P764lUT1DYaUGIjAAABmessage channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: 1P764lUT1DYaUGIjAAABjson channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: coSOIIyIbGxyhmmRAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: 1P764lUT1DYaUGIjAAABmessage channel opened! 
+2023/4/23 17:24:23: Message from 1P764lUT1DYaUGIjAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: Creating wG4q-i4NV0V1EpnjAAAB Data Channel 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: JML6-nC4zE1vltCEAAAA Creating an offer 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 1221009582757809275 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:dvOw\r\na=ice-pwd:fmEdpllmHa8GVqslQ59YRgrx\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7A:99:BD:4A:AA:C5:D7:DF:92:05:71:F7:0D:9E:D3:3C:09:80:58:D3:A9:96:D2:2B:D7:F5:3D:EF:32:05:4A:A6\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: onDataChannelCreated: {} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: Got JML6-nC4zE1vltCEAAAA offer. Sending answer to peer. 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: wG4q-i4NV0V1EpnjAAAB local session created: {"sdp":"v=0\r\no=- 6522787068360444812 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:kiyN\r\na=ice-pwd:/1U169Yjt6TkwAx1RTv+ojCI\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7E:F4:78:FA:FD:2C:3C:82:14:01:27:E6:C4:E0:6C:D3:E2:51:59:25:DE:8B:4E:65:78:2A:56:CD:B3:F2:A4:01\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 6522787068360444812 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:kiyN\r\na=ice-pwd:/1U169Yjt6TkwAx1RTv+ojCI\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7E:F4:78:FA:FD:2C:3C:82:14:01:27:E6:C4:E0:6C:D3:E2:51:59:25:DE:8B:4E:65:78:2A:56:CD:B3:F2:A4:01\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:209737059 1 udp 2113937151 26328370-c8a8-4a8d-a747-2a770315f131.local 63354 typ host generation 0 ufrag kiyN network-cost 999"} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1842985988 1 udp 2113937151 b829807b-0539-458e-bef8-0ede8f0470aa.local 53130 typ host generation 0 ufrag dvOw network-cost 999"} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: End of candidates. 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: JML6-nC4zE1vltCEAAAA Got wG4q-i4NV0V1EpnjAAAB answer. 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: End of candidates. 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: wG4q-i4NV0V1EpnjAAABfile channel opened! 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: JML6-nC4zE1vltCEAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: onDataChannelCreated: {} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: wG4q-i4NV0V1EpnjAAABfile channel opened! 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: JML6-nC4zE1vltCEAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: JML6-nC4zE1vltCEAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: wG4q-i4NV0V1EpnjAAABjson channel opened! 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:25:35: Message from wG4q-i4NV0V1EpnjAAAB: wG4q-i4NV0V1EpnjAAABmessage channel opened! 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: wG4q-i4NV0V1EpnjAAABjson channel opened! 
+2023/4/23 17:25:35: Message from JML6-nC4zE1vltCEAAAA: wG4q-i4NV0V1EpnjAAABmessage channel opened! 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: Creating DEhWDpOsUd-uelaqAAAB Data Channel 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: onDataChannelCreated: {} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: PdgU8MS3ElNVUJKaAAAA Creating an offer 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4070818970702803013 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:4L/4\r\na=ice-pwd:4cd8Pt6RtN1iixz3/X7MZOMZ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 91:98:A9:FB:33:EA:E6:34:BF:8C:A9:B0:8C:7F:63:1A:F7:B7:80:FF:FE:A2:77:EB:34:52:63:6D:45:60:12:A0\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: Got PdgU8MS3ElNVUJKaAAAA offer. Sending answer to peer. 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: DEhWDpOsUd-uelaqAAAB local session created: {"sdp":"v=0\r\no=- 1658448027235061338 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:qgfi\r\na=ice-pwd:fiN2kmH7V74XjA9xusZUbHA2\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F1:07:A5:22:38:57:D6:9B:9E:63:58:6E:3C:B8:58:C5:A4:F2:16:4C:08:71:AC:46:A5:A6:A7:57:07:4A:C0:33\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1658448027235061338 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:qgfi\r\na=ice-pwd:fiN2kmH7V74XjA9xusZUbHA2\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F1:07:A5:22:38:57:D6:9B:9E:63:58:6E:3C:B8:58:C5:A4:F2:16:4C:08:71:AC:46:A5:A6:A7:57:07:4A:C0:33\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1855499314 1 udp 2113937151 47a56357-186b-45d6-9566-b05e993e907a.local 61617 typ host generation 0 ufrag 4L/4 network-cost 999"} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2415935600 1 udp 2113937151 eaf8b5eb-7904-412e-8264-4739083bf249.local 61619 typ host generation 0 ufrag qgfi network-cost 999"} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: PdgU8MS3ElNVUJKaAAAA Got DEhWDpOsUd-uelaqAAAB answer. 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: End of candidates. 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: End of candidates. 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: PdgU8MS3ElNVUJKaAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: onDataChannelCreated: {} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: DEhWDpOsUd-uelaqAAABfile channel opened! 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: DEhWDpOsUd-uelaqAAABfile channel opened! 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: PdgU8MS3ElNVUJKaAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: DEhWDpOsUd-uelaqAAABjson channel opened! 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: PdgU8MS3ElNVUJKaAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:26:04: Message from DEhWDpOsUd-uelaqAAAB: DEhWDpOsUd-uelaqAAABmessage channel opened! 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: DEhWDpOsUd-uelaqAAABjson channel opened! 
+2023/4/23 17:26:04: Message from PdgU8MS3ElNVUJKaAAAA: DEhWDpOsUd-uelaqAAABmessage channel opened! 
+2023/4/23 17:26:08: Message from PdgU8MS3ElNVUJKaAAAA: The key is not existed 20C-Curse Of The Golden Flower(qobuz).zip 
+2023/4/23 17:26:11: Message from PdgU8MS3ElNVUJKaAAAA: Received {} 
+2023/4/23 17:26:20: Message from PdgU8MS3ElNVUJKaAAAA: The key is not existed 20C-Curse Of The Golden Flower(qobuz).zip 
+2023/4/23 17:26:22: Message from PdgU8MS3ElNVUJKaAAAA: Received {} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: onDataChannelCreated: {} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: Creating NR_Wnv-02O74o0pMAAAB Data Channel 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: Me5nDRun881rrLZOAAAA Creating an offer 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 6093084102265903755 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:XLi0\r\na=ice-pwd:2Tor7t4404kb1eYi9CBeVzlN\r\na=ice-options:trickle\r\na=fingerprint:sha-256 6E:5D:3C:D3:2C:09:57:DB:1A:D8:EE:8C:4C:F5:76:B1:15:A4:CB:26:F8:77:62:B6:5A:E1:0D:FC:1C:30:9C:12\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: Got Me5nDRun881rrLZOAAAA offer. Sending answer to peer. 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3167936414 1 udp 2113937151 eb287852-b4f5-419a-ae94-bebe255eef3d.local 53734 typ host generation 0 ufrag XLi0 network-cost 999"} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: NR_Wnv-02O74o0pMAAAB local session created: {"sdp":"v=0\r\no=- 5524720919686633586 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:OH5i\r\na=ice-pwd:EsjSEEBMzA45zUhIZCmdP36y\r\na=ice-options:trickle\r\na=fingerprint:sha-256 2F:3C:9B:B1:AC:72:5E:8D:FC:7B:74:87:66:86:73:C5:49:08:A1:CC:A9:84:1F:16:78:58:07:0B:A3:50:68:2E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 5524720919686633586 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:OH5i\r\na=ice-pwd:EsjSEEBMzA45zUhIZCmdP36y\r\na=ice-options:trickle\r\na=fingerprint:sha-256 2F:3C:9B:B1:AC:72:5E:8D:FC:7B:74:87:66:86:73:C5:49:08:A1:CC:A9:84:1F:16:78:58:07:0B:A3:50:68:2E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: Me5nDRun881rrLZOAAAA Got NR_Wnv-02O74o0pMAAAB answer. 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1319848684 1 udp 2113937151 3482e8ba-c0f5-4900-92dc-fc7ddcaaec08.local 53736 typ host generation 0 ufrag OH5i network-cost 999"} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: End of candidates. 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: End of candidates. 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: NR_Wnv-02O74o0pMAAABfile channel opened! 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: Me5nDRun881rrLZOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: NR_Wnv-02O74o0pMAAABjson channel opened! 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: NR_Wnv-02O74o0pMAAABfile channel opened! 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: onDataChannelCreated: {} 
+2023/4/23 17:27:36: Message from Me5nDRun881rrLZOAAAA: NR_Wnv-02O74o0pMAAABmessage channel opened! 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: Me5nDRun881rrLZOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: Me5nDRun881rrLZOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: NR_Wnv-02O74o0pMAAABjson channel opened! 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:27:36: Message from NR_Wnv-02O74o0pMAAAB: NR_Wnv-02O74o0pMAAABmessage channel opened! 
+2023/4/23 17:27:39: Message from Me5nDRun881rrLZOAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 17:27:51: Message from Me5nDRun881rrLZOAAAA: The key is not existed 20C-Curse Of The Golden Flower(qobuz).zip 
+2023/4/23 17:29:24: Message from Me5nDRun881rrLZOAAAA: Received {} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: Creating 5c4Fe3non5BO0gA1AAAB Data Channel 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: onDataChannelCreated: {} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: 6LmyfbsO4AX-ASkyAAAA Creating an offer 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 3499780561597891773 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:XQKp\r\na=ice-pwd:E0UrN8Y4V1R65NzQJbHGrM26\r\na=ice-options:trickle\r\na=fingerprint:sha-256 77:B3:D9:08:E7:A3:8A:57:9D:B8:63:5A:93:A3:2C:BD:7D:CC:1B:11:8F:BA:ED:69:D6:49:EC:83:60:B0:8C:2A\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: Got 6LmyfbsO4AX-ASkyAAAA offer. Sending answer to peer. 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 130173032256749774 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:XnE6\r\na=ice-pwd:dBZCWdH21MViNTbLA+c8UuTq\r\na=ice-options:trickle\r\na=fingerprint:sha-256 96:2F:43:6A:9D:05:12:D9:A4:B8:1C:20:7B:EE:88:83:DB:CD:BB:A1:48:60:B7:E1:7E:62:AE:B3:3A:CB:43:A3\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 5c4Fe3non5BO0gA1AAAB local session created: {"sdp":"v=0\r\no=- 130173032256749774 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:XnE6\r\na=ice-pwd:dBZCWdH21MViNTbLA+c8UuTq\r\na=ice-options:trickle\r\na=fingerprint:sha-256 96:2F:43:6A:9D:05:12:D9:A4:B8:1C:20:7B:EE:88:83:DB:CD:BB:A1:48:60:B7:E1:7E:62:AE:B3:3A:CB:43:A3\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1667466820 1 udp 2113937151 95ced6b1-a34a-478b-8491-6316e9c678df.local 61593 typ host generation 0 ufrag XQKp network-cost 999"} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: 6LmyfbsO4AX-ASkyAAAA Got 5c4Fe3non5BO0gA1AAAB answer. 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3917829028 1 udp 2113937151 6b070422-4594-4f4b-baff-c826198557c1.local 56156 typ host generation 0 ufrag XnE6 network-cost 999"} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: End of candidates. 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: End of candidates. 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: 5c4Fe3non5BO0gA1AAABfile channel opened! 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: 5c4Fe3non5BO0gA1AAABjson channel opened! 
+2023/4/23 17:41:47: Message from 6LmyfbsO4AX-ASkyAAAA: 5c4Fe3non5BO0gA1AAABmessage channel opened! 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 6LmyfbsO4AX-ASkyAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: onDataChannelCreated: {} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 5c4Fe3non5BO0gA1AAABfile channel opened! 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 6LmyfbsO4AX-ASkyAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: onJsonChannelCreated: {} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 5c4Fe3non5BO0gA1AAABjson channel opened! 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: onMessageChannelCreated: {} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 6LmyfbsO4AX-ASkyAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:41:47: Message from 5c4Fe3non5BO0gA1AAAB: 5c4Fe3non5BO0gA1AAABmessage channel opened! 
+2023/4/23 17:41:54: Message from 6LmyfbsO4AX-ASkyAAAA: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 17:43:30: Message from 6LmyfbsO4AX-ASkyAAAA: Received {} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: Creating jv2knN9bwAR6KVQnAAAB Data Channel 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: onDataChannelCreated: {} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: wD4FWkdKGPhqjWjvAAAA Creating an offer 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 3388467971043403158 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:7k51\r\na=ice-pwd:e3DeX46utsZzPvW2Ic1odRpp\r\na=ice-options:trickle\r\na=fingerprint:sha-256 B2:5A:5E:8F:87:DB:12:89:FA:63:50:7E:62:FF:C8:82:FC:E5:2D:93:E6:DC:FD:32:D9:BF:58:5F:EC:1E:F9:48\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: Got wD4FWkdKGPhqjWjvAAAA offer. Sending answer to peer. 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: jv2knN9bwAR6KVQnAAAB local session created: {"sdp":"v=0\r\no=- 776262515145112815 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:6WkB\r\na=ice-pwd:9cp05BpgbzXrh9s5oFQ7L6xF\r\na=ice-options:trickle\r\na=fingerprint:sha-256 E6:AB:DB:DB:68:26:1E:F2:92:B2:63:B4:B2:A5:6C:A5:EC:2F:21:2E:C0:95:34:B9:BA:31:87:77:6C:F5:1F:10\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 776262515145112815 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:6WkB\r\na=ice-pwd:9cp05BpgbzXrh9s5oFQ7L6xF\r\na=ice-options:trickle\r\na=fingerprint:sha-256 E6:AB:DB:DB:68:26:1E:F2:92:B2:63:B4:B2:A5:6C:A5:EC:2F:21:2E:C0:95:34:B9:BA:31:87:77:6C:F5:1F:10\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3048756100 1 udp 2113937151 e4f934dd-70a7-43f8-aea2-891f185638fc.local 65058 typ host generation 0 ufrag 6WkB network-cost 999"} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: wD4FWkdKGPhqjWjvAAAA Got jv2knN9bwAR6KVQnAAAB answer. 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: End of candidates. 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1379462636 1 udp 2113937151 ec173d68-ad06-4afe-9b5c-a84dd52346a6.local 65060 typ host generation 0 ufrag 7k51 network-cost 999"} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: End of candidates. 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: wD4FWkdKGPhqjWjvAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: onDataChannelCreated: {} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: jv2knN9bwAR6KVQnAAABfile channel opened! 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: wD4FWkdKGPhqjWjvAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: jv2knN9bwAR6KVQnAAABfile channel opened! 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: jv2knN9bwAR6KVQnAAABjson channel opened! 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: wD4FWkdKGPhqjWjvAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: jv2knN9bwAR6KVQnAAABjson channel opened! 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:47:09: Message from jv2knN9bwAR6KVQnAAAB: jv2knN9bwAR6KVQnAAABmessage channel opened! 
+2023/4/23 17:47:09: Message from wD4FWkdKGPhqjWjvAAAA: jv2knN9bwAR6KVQnAAABmessage channel opened! 
+2023/4/23 17:47:15: Message from wD4FWkdKGPhqjWjvAAAA: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: onDataChannelCreated: {} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: Creating euPzdFs0BCJKCpPuAAAB Data Channel 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: _4eyL6hsgAxu6K1yAAAA Creating an offer 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4138468692189734364 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:4uEO\r\na=ice-pwd:6sX1js1wRZX2tdveUI2jbKXQ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 BC:3B:FD:C8:6B:FD:4B:78:CE:A6:D6:D5:16:9A:96:0C:F6:04:7F:2A:89:6B:57:02:73:37:E1:F5:DE:F3:24:2B\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: Got _4eyL6hsgAxu6K1yAAAA offer. Sending answer to peer. 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: euPzdFs0BCJKCpPuAAAB local session created: {"sdp":"v=0\r\no=- 7732853300475245026 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:gU0X\r\na=ice-pwd:1xHgivJMJpJvKycwKJTRFlrW\r\na=ice-options:trickle\r\na=fingerprint:sha-256 8D:28:C8:A6:45:3B:32:58:1B:67:79:8C:C6:21:BF:EA:45:77:DE:A7:C0:DE:86:22:22:90:D3:24:8A:53:28:31\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 7732853300475245026 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:gU0X\r\na=ice-pwd:1xHgivJMJpJvKycwKJTRFlrW\r\na=ice-options:trickle\r\na=fingerprint:sha-256 8D:28:C8:A6:45:3B:32:58:1B:67:79:8C:C6:21:BF:EA:45:77:DE:A7:C0:DE:86:22:22:90:D3:24:8A:53:28:31\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2105036203 1 udp 2113937151 ef425e10-e2a5-42de-919b-4837765cc058.local 54967 typ host generation 0 ufrag gU0X network-cost 999"} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2715812717 1 udp 2113937151 f32425cc-65ad-4862-a383-82ebd90c85ce.local 54965 typ host generation 0 ufrag 4uEO network-cost 999"} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: _4eyL6hsgAxu6K1yAAAA Got euPzdFs0BCJKCpPuAAAB answer. 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: End of candidates. 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: End of candidates. 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: euPzdFs0BCJKCpPuAAABfile channel opened! 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: _4eyL6hsgAxu6K1yAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: euPzdFs0BCJKCpPuAAABjson channel opened! 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: onDataChannelCreated: {} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: euPzdFs0BCJKCpPuAAABfile channel opened! 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: _4eyL6hsgAxu6K1yAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: euPzdFs0BCJKCpPuAAABjson channel opened! 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: _4eyL6hsgAxu6K1yAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:48:11: Message from euPzdFs0BCJKCpPuAAAB: euPzdFs0BCJKCpPuAAABmessage channel opened! 
+2023/4/23 17:48:11: Message from _4eyL6hsgAxu6K1yAAAA: euPzdFs0BCJKCpPuAAABmessage channel opened! 
+2023/4/23 17:48:18: Message from euPzdFs0BCJKCpPuAAAB: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 17:50:05: Message from euPzdFs0BCJKCpPuAAAB: Received {} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: Creating Eemn0paySR6Yt8XAAAAB Data Channel 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: onDataChannelCreated: {} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4870599688353768528 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:sWfM\r\na=ice-pwd:bkl7CVAfu0PyxMbzu8YyiC4+\r\na=ice-options:trickle\r\na=fingerprint:sha-256 2A:68:51:DF:21:49:D4:E1:13:19:F7:94:52:E1:B4:58:06:AA:8C:FA:88:94:C6:C4:42:A7:B2:96:1B:DF:80:58\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: RIOQtchuarrm6r_nAAAA Creating an offer 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Got RIOQtchuarrm6r_nAAAA offer. Sending answer to peer. 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Eemn0paySR6Yt8XAAAAB local session created: {"sdp":"v=0\r\no=- 1259461176786826632 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:V5A5\r\na=ice-pwd:MK7rivAx3NvrVqTYYpafh1LP\r\na=ice-options:trickle\r\na=fingerprint:sha-256 DD:5F:17:63:C9:B8:5B:65:14:7B:13:EA:57:C2:18:A9:9E:68:5A:B1:EF:03:2F:8D:D6:20:07:31:0D:AE:E7:9E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1259461176786826632 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:V5A5\r\na=ice-pwd:MK7rivAx3NvrVqTYYpafh1LP\r\na=ice-options:trickle\r\na=fingerprint:sha-256 DD:5F:17:63:C9:B8:5B:65:14:7B:13:EA:57:C2:18:A9:9E:68:5A:B1:EF:03:2F:8D:D6:20:07:31:0D:AE:E7:9E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3463108365 1 udp 2113937151 6b3e2fc9-a8a4-4d8d-801b-0a07646126c1.local 51737 typ host generation 0 ufrag V5A5 network-cost 999"} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: RIOQtchuarrm6r_nAAAA Got Eemn0paySR6Yt8XAAAAB answer. 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3430399988 1 udp 2113937151 f0513bf6-61bd-4e29-9fb6-3beb7d349730.local 51735 typ host generation 0 ufrag sWfM network-cost 999"} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: End of candidates. 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: End of candidates. 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: RIOQtchuarrm6r_nAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: onDataChannelCreated: {} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Eemn0paySR6Yt8XAAAABfile channel opened! 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: Eemn0paySR6Yt8XAAAABfile channel opened! 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: RIOQtchuarrm6r_nAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: Eemn0paySR6Yt8XAAAABjson channel opened! 
+2023/4/23 17:51:33: Message from RIOQtchuarrm6r_nAAAA: Eemn0paySR6Yt8XAAAABmessage channel opened! 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Eemn0paySR6Yt8XAAAABjson channel opened! 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: RIOQtchuarrm6r_nAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:51:33: Message from Eemn0paySR6Yt8XAAAAB: Eemn0paySR6Yt8XAAAABmessage channel opened! 
+2023/4/23 17:51:41: Message from RIOQtchuarrm6r_nAAAA: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 17:52:19: Message from RIOQtchuarrm6r_nAAAA: Received {} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: Creating gk0CQovbfVpycTY2AAAB Data Channel 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: onDataChannelCreated: {} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: o9i8UJzfRV_lFB-OAAAA Creating an offer 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 2595625869460931123 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:Zegj\r\na=ice-pwd:FQ3+CLqD0YW594lklHlmAK61\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C5:1E:2E:AA:90:F6:A3:A1:70:B8:6F:BF:47:5E:90:5F:32:FB:F2:B0:5A:87:65:34:AA:83:3D:86:0F:7D:31:09\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: Got o9i8UJzfRV_lFB-OAAAA offer. Sending answer to peer. 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: gk0CQovbfVpycTY2AAAB local session created: {"sdp":"v=0\r\no=- 9174083676422644453 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:rWhn\r\na=ice-pwd:dWU0VyZoIVzC2EXJuDLS9pvH\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9C:83:19:30:33:D5:F6:70:29:94:EE:EE:52:55:39:53:21:3B:4F:2B:EE:2E:F7:EF:C7:4B:CD:65:42:DF:0E:61\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 9174083676422644453 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:rWhn\r\na=ice-pwd:dWU0VyZoIVzC2EXJuDLS9pvH\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9C:83:19:30:33:D5:F6:70:29:94:EE:EE:52:55:39:53:21:3B:4F:2B:EE:2E:F7:EF:C7:4B:CD:65:42:DF:0E:61\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: o9i8UJzfRV_lFB-OAAAA Got gk0CQovbfVpycTY2AAAB answer. 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3007843698 1 udp 2113937151 b3f8d2ce-c53e-4f78-82c3-8080930d00a8.local 56815 typ host generation 0 ufrag rWhn network-cost 999"} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3141577842 1 udp 2113937151 ca3076db-9ca0-41f4-8fd0-8b69c635bfa2.local 56813 typ host generation 0 ufrag Zegj network-cost 999"} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: End of candidates. 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: End of candidates. 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: o9i8UJzfRV_lFB-OAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: onDataChannelCreated: {} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: gk0CQovbfVpycTY2AAABfile channel opened! 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: onJsonChannelCreated: {} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: gk0CQovbfVpycTY2AAABjson channel opened! 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: o9i8UJzfRV_lFB-OAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: gk0CQovbfVpycTY2AAABfile channel opened! 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: o9i8UJzfRV_lFB-OAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: onMessageChannelCreated: {} 
+2023/4/23 17:57:44: Message from gk0CQovbfVpycTY2AAAB: gk0CQovbfVpycTY2AAABmessage channel opened! 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: gk0CQovbfVpycTY2AAABjson channel opened! 
+2023/4/23 17:57:44: Message from o9i8UJzfRV_lFB-OAAAA: gk0CQovbfVpycTY2AAABmessage channel opened! 
+2023/4/23 17:57:48: Message from o9i8UJzfRV_lFB-OAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 17:58:47: Message from o9i8UJzfRV_lFB-OAAAA: Received {} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: Creating Peer connection as initiator? true 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: Creating 78sQxJt991KTRfDgAAAB Data Channel 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: onJsonChannelCreated: {} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: onMessageChannelCreated: {} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: onDataChannelCreated: {} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4594293873588741718 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:vZ+Q\r\na=ice-pwd:cG+azaeTM5eZO5nSGftCBmOK\r\na=ice-options:trickle\r\na=fingerprint:sha-256 B9:4F:F6:9E:91:C0:07:69:DA:F2:21:0A:BF:9A:E8:55:69:06:F2:CE:C9:16:16:17:85:41:31:89:8C:0B:7A:C7\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: o9cNteG3WadZi58lAAAA Creating an offer 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: Creating Peer connection as initiator? false 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: Got o9cNteG3WadZi58lAAAA offer. Sending answer to peer. 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: 78sQxJt991KTRfDgAAAB local session created: {"sdp":"v=0\r\no=- 1749128279099534572 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:tydI\r\na=ice-pwd:bAbWThcBwivlFGb5PC4w3Tag\r\na=ice-options:trickle\r\na=fingerprint:sha-256 78:21:C3:95:E2:D6:17:BD:A0:6C:16:10:32:34:C4:61:3D:20:AC:CA:E2:94:30:DB:15:C8:FE:3E:36:AA:50:E6\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1749128279099534572 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:tydI\r\na=ice-pwd:bAbWThcBwivlFGb5PC4w3Tag\r\na=ice-options:trickle\r\na=fingerprint:sha-256 78:21:C3:95:E2:D6:17:BD:A0:6C:16:10:32:34:C4:61:3D:20:AC:CA:E2:94:30:DB:15:C8:FE:3E:36:AA:50:E6\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: o9cNteG3WadZi58lAAAA Got 78sQxJt991KTRfDgAAAB answer. 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:96384326 1 udp 2113937151 3477ecbe-e238-4b4e-9046-9012deada592.local 64730 typ host generation 0 ufrag tydI network-cost 999"} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:254363988 1 udp 2113937151 7aca0a0d-5cdd-4b3a-8dee-54f7959c7b3f.local 64728 typ host generation 0 ufrag vZ+Q network-cost 999"} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: End of candidates. 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: End of candidates. 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: o9cNteG3WadZi58lAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: 78sQxJt991KTRfDgAAABfile channel opened! 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: 78sQxJt991KTRfDgAAABjson channel opened! 
+2023/4/23 17:59:51: Message from o9cNteG3WadZi58lAAAA: 78sQxJt991KTRfDgAAABmessage channel opened! 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: onDataChannelCreated: {} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: 78sQxJt991KTRfDgAAABfile channel opened! 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: o9cNteG3WadZi58lAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: onJsonChannelCreated: {} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: o9cNteG3WadZi58lAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: 78sQxJt991KTRfDgAAABjson channel opened! 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: onMessageChannelCreated: {} 
+2023/4/23 17:59:51: Message from 78sQxJt991KTRfDgAAAB: 78sQxJt991KTRfDgAAABmessage channel opened! 
+2023/4/23 17:59:59: Message from o9cNteG3WadZi58lAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: Creating Peer connection as initiator? true 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: Creating Peer connection as initiator? false 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: Creating pc9c8i53qN1bKvUqAAAB Data Channel 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: onDataChannelCreated: {} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: CjH4H9HcsCxBd27pAAAA Creating an offer 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: onMessageChannelCreated: {} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: onJsonChannelCreated: {} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 2066893400331214662 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:kNPO\r\na=ice-pwd:8hPizdhv5Y330sJq5D4BGRPe\r\na=ice-options:trickle\r\na=fingerprint:sha-256 41:2B:D6:41:4F:31:74:AF:F1:E2:3A:92:E3:93:C9:31:F2:1E:15:D4:70:6F:C4:DE:F1:74:EC:02:AE:7E:02:CC\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: Got CjH4H9HcsCxBd27pAAAA offer. Sending answer to peer. 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: pc9c8i53qN1bKvUqAAAB local session created: {"sdp":"v=0\r\no=- 1903785243148279804 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:fcOs\r\na=ice-pwd:Q9KfY2HnVE4I/71KXFKazgXP\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:53:D4:50:4F:7B:59:36:83:6F:21:EB:E7:15:B8:65:4B:07:5E:0E:6B:35:EF:07:4A:C3:54:00:B5:0F:CC:87\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1903785243148279804 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:fcOs\r\na=ice-pwd:Q9KfY2HnVE4I/71KXFKazgXP\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:53:D4:50:4F:7B:59:36:83:6F:21:EB:E7:15:B8:65:4B:07:5E:0E:6B:35:EF:07:4A:C3:54:00:B5:0F:CC:87\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1668473306 1 udp 2113937151 25206579-655e-4da2-8d3c-2a39805b31a6.local 56985 typ host generation 0 ufrag fcOs network-cost 999"} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1295192092 1 udp 2113937151 506a4c9e-1b69-49ac-b2f4-bc9ae415a192.local 56983 typ host generation 0 ufrag kNPO network-cost 999"} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: CjH4H9HcsCxBd27pAAAA Got pc9c8i53qN1bKvUqAAAB answer. 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: End of candidates. 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: End of candidates. 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: pc9c8i53qN1bKvUqAAABfile channel opened! 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: pc9c8i53qN1bKvUqAAABmessage channel opened! 
+2023/4/23 18:01:37: Message from CjH4H9HcsCxBd27pAAAA: pc9c8i53qN1bKvUqAAABjson channel opened! 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: CjH4H9HcsCxBd27pAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: pc9c8i53qN1bKvUqAAABfile channel opened! 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: onDataChannelCreated: {} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: CjH4H9HcsCxBd27pAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: onJsonChannelCreated: {} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: pc9c8i53qN1bKvUqAAABjson channel opened! 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: onMessageChannelCreated: {} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: CjH4H9HcsCxBd27pAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:01:37: Message from pc9c8i53qN1bKvUqAAAB: pc9c8i53qN1bKvUqAAABmessage channel opened! 
+2023/4/23 18:01:42: Message from CjH4H9HcsCxBd27pAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 18:02:28: Message from 3BVxN5OiStNzxBGOAAAD: Creating Peer connection as initiator? false 
+2023/4/23 18:02:28: Message from 3BVxN5OiStNzxBGOAAAD: Creating Peer connection as initiator? false 
+2023/4/23 18:02:34: Message from 3BVxN5OiStNzxBGOAAAD: cuTepGTHZVkjgoszAAAC peerConnection is closed 
+2023/4/23 18:02:45: Message from Bjb68kPyPkrhE3_-AAAF: Creating Peer connection as initiator? false 
+2023/4/23 18:02:45: Message from Bjb68kPyPkrhE3_-AAAF: Creating Peer connection as initiator? false 
+2023/4/23 18:02:48: Message from Bjb68kPyPkrhE3_-AAAF: 6CpPN-HQ-yXzHcPcAAAE peerConnection is closed 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: Creating Peer connection as initiator? true 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: onDataChannelCreated: {} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: Creating dS95SbN9ayuJKygHAAAB Data Channel 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Creating an offer 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: onJsonChannelCreated: {} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: onMessageChannelCreated: {} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 3250485439520253441 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:W9QT\r\na=ice-pwd:t5rIZ4G94C6O6Drd541Jugq4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 CF:FA:2C:58:C5:C2:98:EE:56:AB:D7:04:F6:AA:C8:E9:7E:B0:B2:58:0A:40:BE:75:49:A6:D2:A4:78:65:E8:F4\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: Creating Peer connection as initiator? false 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4165662819 1 udp 2113937151 7dadc56c-d886-4363-8076-bf79c63a0c27.local 53081 typ host generation 0 ufrag W9QT network-cost 999"} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: Got bnI9iBK84VYR3mwhAAAA offer. Sending answer to peer. 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAAB local session created: {"sdp":"v=0\r\no=- 6997887713759332070 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:y7jK\r\na=ice-pwd:2RsApg/UAxR2QXXYkYOMFR2R\r\na=ice-options:trickle\r\na=fingerprint:sha-256 35:11:65:8E:67:C6:1A:DA:1C:94:CB:C7:1E:CC:9B:51:79:5E:90:15:43:BC:EB:C4:50:D4:84:62:28:B2:0C:D4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 6997887713759332070 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:y7jK\r\na=ice-pwd:2RsApg/UAxR2QXXYkYOMFR2R\r\na=ice-options:trickle\r\na=fingerprint:sha-256 35:11:65:8E:67:C6:1A:DA:1C:94:CB:C7:1E:CC:9B:51:79:5E:90:15:43:BC:EB:C4:50:D4:84:62:28:B2:0C:D4\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Got dS95SbN9ayuJKygHAAAB answer. 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:690442159 1 udp 2113937151 b529766f-bf79-404f-915d-58516e7f798f.local 55003 typ host generation 0 ufrag y7jK network-cost 999"} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: End of candidates. 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: End of candidates. 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: dS95SbN9ayuJKygHAAABfile channel opened! 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: dS95SbN9ayuJKygHAAABjson channel opened! 
+2023/4/23 18:03:01: Message from bnI9iBK84VYR3mwhAAAA: dS95SbN9ayuJKygHAAABmessage channel opened! 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: onDataChannelCreated: {} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: onJsonChannelCreated: {} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAABjson channel opened! 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAABfile channel opened! 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAABmessage channel opened! 
+2023/4/23 18:03:01: Message from dS95SbN9ayuJKygHAAAB: onMessageChannelCreated: {} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: Creating Peer connection as initiator? true 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: Creating bn7wlUFg5ZBVinVyAAAC Data Channel 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: onJsonChannelCreated: {} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: onDataChannelCreated: {} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Creating an offer 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: onMessageChannelCreated: {} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 8121658584411800132 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:JScE\r\na=ice-pwd:G0xiizbC1lE4wRt9sCcXF/W3\r\na=ice-options:trickle\r\na=fingerprint:sha-256 68:34:B7:11:31:5B:F3:30:E1:13:1D:25:D0:C6:DC:D4:C3:AF:4F:47:32:3F:A4:48:79:85:3E:69:CE:E5:19:55\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3483023105 1 udp 2113937151 7dadc56c-d886-4363-8076-bf79c63a0c27.local 56206 typ host generation 0 ufrag JScE network-cost 999"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: Creating Peer connection as initiator? false 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAAC local session created: {"sdp":"v=0\r\no=- 725164328652443694 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oYun\r\na=ice-pwd:g7OS7LNYBsQQSEBax5tCyubY\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0F:50:01:C4:6B:51:2B:EF:02:E1:92:A2:61:5B:B4:73:8C:6B:1D:8F:1B:B6:C8:65:BA:A8:8C:B2:A2:0B:F3:78\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: Got bnI9iBK84VYR3mwhAAAA offer. Sending answer to peer. 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: sending message {"type":"answer","sdp":"v=0\r\no=- 725164328652443694 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oYun\r\na=ice-pwd:g7OS7LNYBsQQSEBax5tCyubY\r\na=ice-options:trickle\r\na=fingerprint:sha-256 0F:50:01:C4:6B:51:2B:EF:02:E1:92:A2:61:5B:B4:73:8C:6B:1D:8F:1B:B6:C8:65:BA:A8:8C:B2:A2:0B:F3:78\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2413563316 1 udp 2113937151 b205dc13-7bd3-4994-8fb5-c35ec4e9fe5e.local 58497 typ host generation 0 ufrag oYun network-cost 999"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: Creating Peer connection as initiator? false 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Got bn7wlUFg5ZBVinVyAAAC answer. 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: End of candidates. 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: End of candidates. 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: bn7wlUFg5ZBVinVyAAACjson channel opened! 
+2023/4/23 18:03:16: Message from bnI9iBK84VYR3mwhAAAA: bn7wlUFg5ZBVinVyAAACmessage channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onDataChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onJsonChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACjson channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onMessageChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACmessage channel opened! 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: Creating Peer connection as initiator? true 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: Creating bn7wlUFg5ZBVinVyAAAC Data Channel 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: onDataChannelCreated: {} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: onMessageChannelCreated: {} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAAB Creating an offer 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: onJsonChannelCreated: {} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"offer","sdp":"v=0\r\no=- 830300080539160828 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:cjvz\r\na=ice-pwd:1SxpnEERq0arL8+0UlnWPRks\r\na=ice-options:trickle\r\na=fingerprint:sha-256 6D:F6:F4:CA:68:EE:E9:3B:C2:28:31:A6:DD:D3:58:8C:2E:1F:7A:66:2F:F8:67:40:B3:06:E1:A8:5B:03:4C:CF\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3496191411 1 udp 2113937151 b529766f-bf79-404f-915d-58516e7f798f.local 58499 typ host generation 0 ufrag cjvz network-cost 999"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: Got dS95SbN9ayuJKygHAAAB offer. Sending answer to peer. 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAAC local session created: {"sdp":"v=0\r\no=- 4810901165267766570 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:mjzE\r\na=ice-pwd:52hlUhgaffhYW2guk8vkWXwD\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9B:FD:11:8D:20:08:C0:9A:01:61:73:E9:31:1B:34:32:30:63:A4:B2:F3:35:6A:43:E7:9D:86:79:CC:F6:0F:28\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: sending message {"type":"answer","sdp":"v=0\r\no=- 4810901165267766570 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:mjzE\r\na=ice-pwd:52hlUhgaffhYW2guk8vkWXwD\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9B:FD:11:8D:20:08:C0:9A:01:61:73:E9:31:1B:34:32:30:63:A4:B2:F3:35:6A:43:E7:9D:86:79:CC:F6:0F:28\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2807090150 1 udp 2113937151 b205dc13-7bd3-4994-8fb5-c35ec4e9fe5e.local 58501 typ host generation 0 ufrag mjzE network-cost 999"} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAAB Got bn7wlUFg5ZBVinVyAAAC answer. 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: End of candidates. 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: End of candidates. 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: bn7wlUFg5ZBVinVyAAACjson channel opened! 
+2023/4/23 18:03:16: Message from dS95SbN9ayuJKygHAAAB: bn7wlUFg5ZBVinVyAAACmessage channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onDataChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACjson channel opened! 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onJsonChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: onMessageChannelCreated: {} 
+2023/4/23 18:03:16: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACmessage channel opened! 
+2023/4/23 18:03:28: Message from bnI9iBK84VYR3mwhAAAA: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 18:03:31: Message from dS95SbN9ayuJKygHAAAB: The key is not existed 35C-Opus Jay World Tour (Live).zip 
+2023/4/23 18:04:34: Message from bnI9iBK84VYR3mwhAAAA: Received {} 
+2023/4/23 18:04:37: Message from dS95SbN9ayuJKygHAAAB: Received {} 
+2023/4/23 18:06:14: Message from bnI9iBK84VYR3mwhAAAA: bn7wlUFg5ZBVinVyAAAC dataChannel is closed 
+2023/4/23 18:06:14: Message from dS95SbN9ayuJKygHAAAB: bn7wlUFg5ZBVinVyAAAC dataChannel is closed 
+2023/4/23 18:06:14: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:06:14: Message from dS95SbN9ayuJKygHAAAB: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:06:14: Message from bnI9iBK84VYR3mwhAAAA: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:06:14: Message from bn7wlUFg5ZBVinVyAAAC: bn7wlUFg5ZBVinVyAAACfile channel opened! 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: Creating Peer connection as initiator? true 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: Creating PaC6OLNoNDZoDuPlAAAD Data Channel 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: onJsonChannelCreated: {} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: onMessageChannelCreated: {} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: onDataChannelCreated: {} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 1614584367844334475 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:YwKu\r\na=ice-pwd:rHixwnrcwVzhlTJ6FEkYqy4T\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C4:DF:C8:24:FC:5C:6A:0D:80:0A:CC:0D:79:46:F3:60:80:CC:94:7D:A1:96:97:0E:23:11:19:33:B1:F4:D5:E8\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Creating an offer 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:3764553484 1 udp 2113937151 7dadc56c-d886-4363-8076-bf79c63a0c27.local 62906 typ host generation 0 ufrag YwKu network-cost 999"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: Creating Peer connection as initiator? false 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: Creating Peer connection as initiator? false 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: Got bnI9iBK84VYR3mwhAAAA offer. Sending answer to peer. 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAAD local session created: {"sdp":"v=0\r\no=- 1795064828232843743 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:eV/E\r\na=ice-pwd:uJ5CY5+LteTku277xws4gX9p\r\na=ice-options:trickle\r\na=fingerprint:sha-256 84:C5:DE:C1:0F:AA:F3:19:F1:9B:73:B3:3F:F1:92:E9:70:13:FC:59:B4:30:E8:D0:3A:9A:60:20:31:4F:DC:90\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: sending message {"type":"answer","sdp":"v=0\r\no=- 1795064828232843743 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:eV/E\r\na=ice-pwd:uJ5CY5+LteTku277xws4gX9p\r\na=ice-options:trickle\r\na=fingerprint:sha-256 84:C5:DE:C1:0F:AA:F3:19:F1:9B:73:B3:3F:F1:92:E9:70:13:FC:59:B4:30:E8:D0:3A:9A:60:20:31:4F:DC:90\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: bnI9iBK84VYR3mwhAAAA Got PaC6OLNoNDZoDuPlAAAD answer. 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1389283857 1 udp 2113937151 62080b27-2bab-4266-b3cd-a4a694180b17.local 52651 typ host generation 0 ufrag eV/E network-cost 999"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: End of candidates. 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: End of candidates. 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: PaC6OLNoNDZoDuPlAAADjson channel opened! 
+2023/4/23 18:06:20: Message from bnI9iBK84VYR3mwhAAAA: PaC6OLNoNDZoDuPlAAADmessage channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onDataChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onJsonChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADjson channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onMessageChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADmessage channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: bnI9iBK84VYR3mwhAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: Creating Peer connection as initiator? true 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: Creating PaC6OLNoNDZoDuPlAAAD Data Channel 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: onDataChannelCreated: {} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: onJsonChannelCreated: {} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: onMessageChannelCreated: {} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAAB Creating an offer 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"offer","sdp":"v=0\r\no=- 7179574067452173338 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:ju75\r\na=ice-pwd:AVyJiAbW7Kiy+0/h9Fq34Vz5\r\na=ice-options:trickle\r\na=fingerprint:sha-256 38:69:F4:42:3A:41:CF:03:CB:6D:59:E2:64:3B:2E:7E:8A:B0:48:36:39:2D:BF:03:92:DA:85:9B:50:A0:C4:64\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: Got dS95SbN9ayuJKygHAAAB offer. Sending answer to peer. 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:286466322 1 udp 2113937151 b529766f-bf79-404f-915d-58516e7f798f.local 52653 typ host generation 0 ufrag ju75 network-cost 999"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAAD local session created: {"sdp":"v=0\r\no=- 7491657848108316476 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oqZE\r\na=ice-pwd:zdkOG3lH5iZDgs5rgi8xNfqZ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 08:1F:BC:40:83:1E:AE:91:89:10:35:F3:A3:F0:0F:1A:07:0E:E6:12:DD:19:3D:1A:B8:66:B3:31:20:A6:E2:A9\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: sending message {"type":"answer","sdp":"v=0\r\no=- 7491657848108316476 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oqZE\r\na=ice-pwd:zdkOG3lH5iZDgs5rgi8xNfqZ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 08:1F:BC:40:83:1E:AE:91:89:10:35:F3:A3:F0:0F:1A:07:0E:E6:12:DD:19:3D:1A:B8:66:B3:31:20:A6:E2:A9\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:416844551 1 udp 2113937151 62080b27-2bab-4266-b3cd-a4a694180b17.local 52655 typ host generation 0 ufrag oqZE network-cost 999"} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAAB Got PaC6OLNoNDZoDuPlAAAD answer. 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: End of candidates. 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: End of candidates. 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onDataChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onJsonChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADjson channel opened! 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: dS95SbN9ayuJKygHAAAB ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: onMessageChannelCreated: {} 
+2023/4/23 18:06:20: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADmessage channel opened! 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: PaC6OLNoNDZoDuPlAAADjson channel opened! 
+2023/4/23 18:06:20: Message from dS95SbN9ayuJKygHAAAB: PaC6OLNoNDZoDuPlAAADmessage channel opened! 
+2023/4/23 18:06:43: Message from PaC6OLNoNDZoDuPlAAAD: bnI9iBK84VYR3mwhAAAA dataChannel is closed 
+2023/4/23 18:06:43: Message from dS95SbN9ayuJKygHAAAB: bnI9iBK84VYR3mwhAAAA dataChannel is closed 
+2023/4/23 18:06:43: Message from bnI9iBK84VYR3mwhAAAA: dS95SbN9ayuJKygHAAABfile channel opened! 
+2023/4/23 18:06:43: Message from dS95SbN9ayuJKygHAAAB: dS95SbN9ayuJKygHAAABfile channel opened! 
+2023/4/23 18:06:43: Message from bnI9iBK84VYR3mwhAAAA: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:43: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:44: Message from PaC6OLNoNDZoDuPlAAAD: dS95SbN9ayuJKygHAAAB dataChannel is closed 
+2023/4/23 18:06:44: Message from dS95SbN9ayuJKygHAAAB: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:44: Message from PaC6OLNoNDZoDuPlAAAD: PaC6OLNoNDZoDuPlAAADfile channel opened! 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: Creating Peer connection as initiator? true 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: Creating BX1akxqEDKGNi7RkAAAF Data Channel 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: onMessageChannelCreated: {} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: onDataChannelCreated: {} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: LS3pna6ALXchnXYsAAAE Creating an offer 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: onJsonChannelCreated: {} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: sending message {"type":"offer","sdp":"v=0\r\no=- 8196453134038510929 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:RRMm\r\na=ice-pwd:NEJuStzH1Jo2yvUDbioBkp+F\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D1:F7:B5:6E:8C:F2:E4:DF:D2:39:1A:6B:BE:83:F6:D0:AD:A3:6F:9B:FC:AB:B2:C8:ED:46:50:90:67:4C:72:13\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:62826338 1 udp 2113937151 430d1030-111f-41ef-ac07-9f78770af707.local 56088 typ host generation 0 ufrag RRMm network-cost 999"} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: Creating Peer connection as initiator? false 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: Got LS3pna6ALXchnXYsAAAE offer. Sending answer to peer. 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAF local session created: {"sdp":"v=0\r\no=- 3017302017534562818 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oqcH\r\na=ice-pwd:yohGhBsOZkuvx7o3985EcvTH\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C7:DB:F3:4A:32:21:F1:02:0B:BB:7E:86:4C:7C:08:50:5E:A9:26:74:90:DC:4C:41:3B:E0:23:22:0D:AD:17:51\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: sending message {"type":"answer","sdp":"v=0\r\no=- 3017302017534562818 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:oqcH\r\na=ice-pwd:yohGhBsOZkuvx7o3985EcvTH\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C7:DB:F3:4A:32:21:F1:02:0B:BB:7E:86:4C:7C:08:50:5E:A9:26:74:90:DC:4C:41:3B:E0:23:22:0D:AD:17:51\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2047708679 1 udp 2113937151 89d79ab4-9131-4358-b767-7183fadcb17f.local 51814 typ host generation 0 ufrag oqcH network-cost 999"} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: LS3pna6ALXchnXYsAAAE Got BX1akxqEDKGNi7RkAAAF answer. 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: End of candidates. 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: End of candidates. 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: BX1akxqEDKGNi7RkAAAFfile channel opened! 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: BX1akxqEDKGNi7RkAAAFjson channel opened! 
+2023/4/23 18:06:51: Message from LS3pna6ALXchnXYsAAAE: BX1akxqEDKGNi7RkAAAFmessage channel opened! 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAFfile channel opened! 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: onJsonChannelCreated: {} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAFjson channel opened! 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: onDataChannelCreated: {} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: onMessageChannelCreated: {} 
+2023/4/23 18:06:51: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAFmessage channel opened! 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: Creating Peer connection as initiator? true 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: Creating ziyGryPsjpXAAqWuAAAG Data Channel 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: onDataChannelCreated: {} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: onJsonChannelCreated: {} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: onMessageChannelCreated: {} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: LS3pna6ALXchnXYsAAAE Creating an offer 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: sending message {"type":"offer","sdp":"v=0\r\no=- 8100101832278922765 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:8PzR\r\na=ice-pwd:qJeX53AjGijfbo6WOVSzfoB+\r\na=ice-options:trickle\r\na=fingerprint:sha-256 90:87:6F:FD:12:8C:D3:94:BD:96:AE:2B:6C:05:5B:24:E6:08:20:35:C8:25:0E:53:37:64:05:D1:30:17:2C:48\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2312703321 1 udp 2113937151 430d1030-111f-41ef-ac07-9f78770af707.local 52988 typ host generation 0 ufrag 8PzR network-cost 999"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: Creating Peer connection as initiator? false 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: Creating Peer connection as initiator? false 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: Got LS3pna6ALXchnXYsAAAE offer. Sending answer to peer. 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAG local session created: {"sdp":"v=0\r\no=- 823631089471993356 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:22m9\r\na=ice-pwd:2d7f80EE2X9GQ9d5SaKjwON0\r\na=ice-options:trickle\r\na=fingerprint:sha-256 25:36:22:7F:04:0D:69:65:D1:E6:88:34:D4:81:4E:78:E7:5D:98:F5:51:02:78:64:CB:87:12:CD:18:24:3A:26\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:920530321 1 udp 2113937151 aeeb3514-1701-48c9-b84d-02cdb516abe9.local 63918 typ host generation 0 ufrag 22m9 network-cost 999"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: sending message {"type":"answer","sdp":"v=0\r\no=- 823631089471993356 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:22m9\r\na=ice-pwd:2d7f80EE2X9GQ9d5SaKjwON0\r\na=ice-options:trickle\r\na=fingerprint:sha-256 25:36:22:7F:04:0D:69:65:D1:E6:88:34:D4:81:4E:78:E7:5D:98:F5:51:02:78:64:CB:87:12:CD:18:24:3A:26\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: End of candidates. 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: LS3pna6ALXchnXYsAAAE Got ziyGryPsjpXAAqWuAAAG answer. 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: End of candidates. 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: ziyGryPsjpXAAqWuAAAGfile channel opened! 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: ziyGryPsjpXAAqWuAAAGjson channel opened! 
+2023/4/23 18:06:53: Message from LS3pna6ALXchnXYsAAAE: ziyGryPsjpXAAqWuAAAGmessage channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onDataChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGfile channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onJsonChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: LS3pna6ALXchnXYsAAAE ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGjson channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onMessageChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGmessage channel opened! 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: Creating Peer connection as initiator? true 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: Creating ziyGryPsjpXAAqWuAAAG Data Channel 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: onDataChannelCreated: {} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: onMessageChannelCreated: {} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAF Creating an offer 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: onJsonChannelCreated: {} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: sending message {"type":"offer","sdp":"v=0\r\no=- 2630555701417771377 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:CbyL\r\na=ice-pwd:cjjESsPIglkAhLO/ZS9HOUrJ\r\na=ice-options:trickle\r\na=fingerprint:sha-256 7E:B0:F2:F3:4F:22:54:F2:6F:E0:F2:C4:8C:52:60:FB:A0:75:47:46:AE:22:FA:3F:CF:10:55:F3:00:D0:AA:02\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: Got BX1akxqEDKGNi7RkAAAF offer. Sending answer to peer. 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAG local session created: {"sdp":"v=0\r\no=- 1533435935649721878 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:rMoL\r\na=ice-pwd:cxbo9uTknQT2fpusMn0L86J6\r\na=ice-options:trickle\r\na=fingerprint:sha-256 8E:59:2E:C9:5E:9F:56:F1:7E:7F:AC:C6:79:B2:8C:44:77:96:C6:41:36:1E:9C:3A:98:13:BE:FD:40:4A:37:A9\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: sending message {"type":"answer","sdp":"v=0\r\no=- 1533435935649721878 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:rMoL\r\na=ice-pwd:cxbo9uTknQT2fpusMn0L86J6\r\na=ice-options:trickle\r\na=fingerprint:sha-256 8E:59:2E:C9:5E:9F:56:F1:7E:7F:AC:C6:79:B2:8C:44:77:96:C6:41:36:1E:9C:3A:98:13:BE:FD:40:4A:37:A9\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2594945386 1 udp 2113937151 89d79ab4-9131-4358-b767-7183fadcb17f.local 63920 typ host generation 0 ufrag CbyL network-cost 999"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1879891861 1 udp 2113937151 aeeb3514-1701-48c9-b84d-02cdb516abe9.local 63922 typ host generation 0 ufrag rMoL network-cost 999"} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: End of candidates. 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: BX1akxqEDKGNi7RkAAAF Got ziyGryPsjpXAAqWuAAAG answer. 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: icecandidate event: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: End of candidates. 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: ziyGryPsjpXAAqWuAAAGfile channel opened! 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: ziyGryPsjpXAAqWuAAAGjson channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: BX1akxqEDKGNi7RkAAAF ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onDataChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGfile channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onJsonChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGjson channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: BX1akxqEDKGNi7RkAAAF ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: BX1akxqEDKGNi7RkAAAF ondatachannel: {"isTrusted":true} 
+2023/4/23 18:06:53: Message from BX1akxqEDKGNi7RkAAAF: ziyGryPsjpXAAqWuAAAGmessage channel opened! 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: onMessageChannelCreated: {} 
+2023/4/23 18:06:53: Message from ziyGryPsjpXAAqWuAAAG: ziyGryPsjpXAAqWuAAAGmessage channel opened! 
+2023/4/23 18:07:29: Message from BX1akxqEDKGNi7RkAAAF: The key is not existed 211F-2002 The One Live In Concert.zip 
+2023/4/23 18:07:36: Message from ziyGryPsjpXAAqWuAAAG: The key is not existed 1682244456494.zip 
+2023/4/23 18:07:37: Message from ziyGryPsjpXAAqWuAAAG: Received {} 
+2023/4/23 18:07:54: Message from BX1akxqEDKGNi7RkAAAF: Received {} 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: Creating Peer connection as initiator? true 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: Creating NWetyaeV4hpLZL_bAAAB Data Channel 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: onMessageChannelCreated: {} 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: onDataChannelCreated: {} 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: w6u_f4VXEY50pkwMAAAA Creating an offer 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 4569182517587472230 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:qVYJ\r\na=ice-pwd:Zakh2YGHhfdDVXP6M19s2D7+\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C4:98:50:DB:FC:6D:4D:CB:CE:D0:B1:D5:9B:A0:AF:BB:3A:9B:5A:76:7D:20:7C:C1:65:48:18:8D:24:DA:72:D2\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 20:47:54: Message from w6u_f4VXEY50pkwMAAAA: onJsonChannelCreated: {} 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1287338938 1 udp 2113937151 bcd86578-4162-4eef-b775-1223f2ace46f.local 54717 typ host generation 0 ufrag qVYJ network-cost 999"} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: Creating Peer connection as initiator? false 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: Got w6u_f4VXEY50pkwMAAAA offer. Sending answer to peer. 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: NWetyaeV4hpLZL_bAAAB local session created: {"sdp":"v=0\r\no=- 1219124806021727013 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:AgHj\r\na=ice-pwd:bjJLnSY+yozrHY4rugMQ47ha\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9D:D1:60:B2:4A:3D:6E:AE:39:98:01:7E:50:56:41:BA:29:09:78:52:D4:A3:14:D7:01:E4:F1:2C:7E:E1:4D:4E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 1219124806021727013 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:AgHj\r\na=ice-pwd:bjJLnSY+yozrHY4rugMQ47ha\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9D:D1:60:B2:4A:3D:6E:AE:39:98:01:7E:50:56:41:BA:29:09:78:52:D4:A3:14:D7:01:E4:F1:2C:7E:E1:4D:4E\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:2640308088 1 udp 2113937151 bfcce486-00a0-4b3e-b996-c306049392bd.local 53044 typ host generation 0 ufrag AgHj network-cost 999"} 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: w6u_f4VXEY50pkwMAAAA Got NWetyaeV4hpLZL_bAAAB answer. 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: End of candidates. 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: End of candidates. 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: NWetyaeV4hpLZL_bAAABfile channel opened! 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: NWetyaeV4hpLZL_bAAABjson channel opened! 
+2023/4/23 20:47:55: Message from w6u_f4VXEY50pkwMAAAA: NWetyaeV4hpLZL_bAAABmessage channel opened! 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: w6u_f4VXEY50pkwMAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: NWetyaeV4hpLZL_bAAABfile channel opened! 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: w6u_f4VXEY50pkwMAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: onJsonChannelCreated: {} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: NWetyaeV4hpLZL_bAAABmessage channel opened! 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: onMessageChannelCreated: {} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: onDataChannelCreated: {} 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: NWetyaeV4hpLZL_bAAABjson channel opened! 
+2023/4/23 20:47:55: Message from NWetyaeV4hpLZL_bAAAB: w6u_f4VXEY50pkwMAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 20:47:57: Message from w6u_f4VXEY50pkwMAAAA: NWetyaeV4hpLZL_bAAAB dataChannel is closed 
+2023/4/23 20:47:57: Message from w6u_f4VXEY50pkwMAAAA: NWetyaeV4hpLZL_bAAABfile channel opened! 
+2023/4/23 20:47:57: Message from NWetyaeV4hpLZL_bAAAB: NWetyaeV4hpLZL_bAAABfile channel opened! 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: Creating Peer connection as initiator? true 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: Creating 4kWgqgUVL_fln5EIAAAB Data Channel 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: onJsonChannelCreated: {} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: onMessageChannelCreated: {} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: onDataChannelCreated: {} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: _rQSJ4JTfVRt2pwOAAAA Creating an offer 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: sending message {"type":"offer","sdp":"v=0\r\no=- 2206107630847852353 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:Afwl\r\na=ice-pwd:KgooyTXgaz6Su75hLXVVQqAr\r\na=ice-options:trickle\r\na=fingerprint:sha-256 ED:C1:C4:0F:AC:4C:A2:5E:90:57:B6:CB:16:5E:C4:39:10:C5:09:76:94:43:F2:47:80:04:FF:5C:1E:29:58:46\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:4235258434 1 udp 2113937151 c0e71129-08b4-4f47-90e0-7a393f2b6e2d.local 62648 typ host generation 0 ufrag Afwl network-cost 999"} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: Creating Peer connection as initiator? false 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: Got _rQSJ4JTfVRt2pwOAAAA offer. Sending answer to peer. 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: 4kWgqgUVL_fln5EIAAAB local session created: {"sdp":"v=0\r\no=- 3206009050016259225 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:H//V\r\na=ice-pwd:207g5kkmDKtLvMLi8Dcf3+wm\r\na=ice-options:trickle\r\na=fingerprint:sha-256 19:F1:5C:D5:02:6E:2F:54:5E:0E:21:91:0F:BF:63:E0:46:1C:3E:62:15:26:2A:D0:FB:FB:6C:A6:96:38:2C:A7\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n","type":"answer"} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: sending message {"type":"answer","sdp":"v=0\r\no=- 3206009050016259225 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:H//V\r\na=ice-pwd:207g5kkmDKtLvMLi8Dcf3+wm\r\na=ice-options:trickle\r\na=fingerprint:sha-256 19:F1:5C:D5:02:6E:2F:54:5E:0E:21:91:0F:BF:63:E0:46:1C:3E:62:15:26:2A:D0:FB:FB:6C:A6:96:38:2C:A7\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: _rQSJ4JTfVRt2pwOAAAA Got 4kWgqgUVL_fln5EIAAAB answer. 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: sending message {"type":"candidate","label":0,"id":"0","candidate":"candidate:1266686094 1 udp 2113937151 de94dc87-3d15-4593-a86a-d3a005dbe966.local 57994 typ host generation 0 ufrag H//V network-cost 999"} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: icecandidate event: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: End of candidates. 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: icecandidate event: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: End of candidates. 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: 4kWgqgUVL_fln5EIAAABfile channel opened! 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: 4kWgqgUVL_fln5EIAAABjson channel opened! 
+2023/4/23 21:10:29: Message from _rQSJ4JTfVRt2pwOAAAA: 4kWgqgUVL_fln5EIAAABmessage channel opened! 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: _rQSJ4JTfVRt2pwOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: onDataChannelCreated: {} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: 4kWgqgUVL_fln5EIAAABfile channel opened! 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: _rQSJ4JTfVRt2pwOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: onJsonChannelCreated: {} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: _rQSJ4JTfVRt2pwOAAAA ondatachannel: {"isTrusted":true} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: 4kWgqgUVL_fln5EIAAABjson channel opened! 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: onMessageChannelCreated: {} 
+2023/4/23 21:10:29: Message from 4kWgqgUVL_fln5EIAAAB: 4kWgqgUVL_fln5EIAAABmessage channel opened! 
+2023/4/23 21:10:35: Message from _rQSJ4JTfVRt2pwOAAAA: The key is not existed 护摩.png 
+2023/4/23 21:10:35: Message from _rQSJ4JTfVRt2pwOAAAA: Received {} 
+2023/4/23 21:10:40: Message from 4kWgqgUVL_fln5EIAAAB: _rQSJ4JTfVRt2pwOAAAA dataChannel is closed 
+2023/4/23 21:10:40: Message from _rQSJ4JTfVRt2pwOAAAA: 4kWgqgUVL_fln5EIAAABfile channel opened! 
+2023/4/23 21:10:40: Message from 4kWgqgUVL_fln5EIAAAB: 4kWgqgUVL_fln5EIAAABfile channel opened! 
