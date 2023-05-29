@@ -1,0 +1,76 @@
+2023/5/3 07:02:53: Message from server: Client ID QvVGkhleIBHzdy3GAAAA created room WebRTC file sharing 
+2023/5/3 07:02:53: Message from server: Received request to create or join room $room 
+2023/5/3 07:02:53: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/3 07:04:25: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/3 07:04:25: Message from server: Received request to create or join room $room 
+2023/5/3 07:04:25: Message from server: Client ID ey26_yUmymxHtC-IAAAB joined room WebRTC file sharing 
+2023/5/3 07:08:20: Message from server: Peer ey26_yUmymxHtC-IAAAB said bye on room WebRTC file sharing. 
+2023/5/3 07:08:20: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/3 07:08:31: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/3 07:08:31: Message from server: Received request to create or join room $room 
+2023/5/3 07:08:31: Message from server: Client ID 2UgsJ48X9Y40FSDuAAAC joined room WebRTC file sharing 
+2023/5/3 07:13:07: Message from server: Peer or server disconnected. Reason: ping timeout. 
+2023/5/3 07:27:31: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/3 07:27:31: Message from server: Client ID fsK7UgN7yO6RrfNCAAAA created room WebRTC file sharing 
+2023/5/3 07:27:31: Message from server: Received request to create or join room $room 
+2023/5/3 07:27:37: Message from server: Received request to create or join room $room 
+2023/5/3 07:27:37: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/3 07:27:37: Message from server: Client ID d1gfq_BgCBK7eVSWAAAB joined room WebRTC file sharing 
+2023/5/3 07:28:14: Message from server: Received request to create or join room $room 
+2023/5/3 07:28:14: Message from server: Room WebRTC file sharing now has 2 client(s) 
+2023/5/3 07:28:14: Message from server: Client ID Jh_t_t8xo7J3MhWwAAAC joined room WebRTC file sharing 
+2023/5/7 17:04:36: Message from server: Received request to create or join room $room 
+2023/5/7 17:04:36: Message from server: Client ID FqSXba3IU-fe7MGhAAAA created room WebRTC file sharing 
+2023/5/7 17:04:36: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/7 17:04:56: Message from server: Received request to create or join room $room 
+2023/5/7 17:04:56: Message from server: Client ID xm3yKI9hiF5cLVGzAAAB joined room WebRTC file sharing 
+2023/5/7 17:04:56: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/7 17:09:31: Message from server: Peer xm3yKI9hiF5cLVGzAAAB said bye on room WebRTC file sharing. 
+2023/5/7 17:09:31: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:18:30: Message from server: Received request to create or join room $room 
+2023/5/29 20:18:30: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/29 20:18:30: Message from server: Client ID GkZHBYGca3YOOOnkAAAA created room WebRTC file sharing 
+2023/5/29 20:18:37: Message from server: Received request to create or join room $room 
+2023/5/29 20:18:37: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/29 20:18:37: Message from server: Client ID fGb5h8hck9QiB0IKAAAB joined room WebRTC file sharing 
+2023/5/29 20:23:04: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:23:19: Message from server: Peer GkZHBYGca3YOOOnkAAAA said bye on room WebRTC file sharing. 
+2023/5/29 20:23:19: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:23:19: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/29 20:23:19: Message from server: Received request to create or join room $room 
+2023/5/29 20:23:19: Message from server: Client ID CjoLvngYhqVwWwtoAAAC created room WebRTC file sharing 
+2023/5/29 20:24:16: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/29 20:24:16: Message from server: Client ID hIkqWF_5FZCtvVuVAAAD joined room WebRTC file sharing 
+2023/5/29 20:24:16: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:23: Message from server: Peer hIkqWF_5FZCtvVuVAAAD said bye on room WebRTC file sharing. 
+2023/5/29 20:24:23: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:24:23: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/29 20:24:23: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:23: Message from server: Client ID eAcUfUf7hxVYrb4GAAAE joined room WebRTC file sharing 
+2023/5/29 20:24:31: Message from server: Peer eAcUfUf7hxVYrb4GAAAE said bye on room WebRTC file sharing. 
+2023/5/29 20:24:31: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:24:34: Message from server: Peer CjoLvngYhqVwWwtoAAAC said bye on room WebRTC file sharing. 
+2023/5/29 20:24:34: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:24:34: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:34: Message from server: Client ID AgFNzcZqHx8uNVByAAAF created room WebRTC file sharing 
+2023/5/29 20:24:34: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/29 20:24:37: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:37: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/29 20:24:37: Message from server: Client ID iIavGTUl0hpa_q0CAAAG joined room WebRTC file sharing 
+2023/5/29 20:24:45: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:45: Message from server: Room WebRTC file sharing now has 0 client(s) 
+2023/5/29 20:24:45: Message from server: Client ID iMjVk9tjxfVWus0kAAAB created room WebRTC file sharing 
+2023/5/29 20:24:47: Message from server: Peer pBvQBAQEZfu2Z-FiAAAA said bye on room WebRTC file sharing. 
+2023/5/29 20:24:47: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:24:47: Message from server: Received request to create or join room $room 
+2023/5/29 20:24:47: Message from server: Room WebRTC file sharing now has 1 client(s) 
+2023/5/29 20:24:47: Message from server: Client ID XPwN6MjK28UDP-4RAAAC joined room WebRTC file sharing 
+2023/5/29 20:30:00: Message from server: Received request to create or join room $room 
+2023/5/29 20:30:00: Message from server: Room WebRTC file sharing now has 2 client(s) 
+2023/5/29 20:30:00: Message from server: Client ID LdbxiYPOz7BGDf5qAAAD joined room WebRTC file sharing 
+2023/5/29 20:37:23: Message from server: Peer iMjVk9tjxfVWus0kAAAB said bye on room WebRTC file sharing. 
+2023/5/29 20:37:23: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:37:36: Message from server: Peer XPwN6MjK28UDP-4RAAAC said bye on room WebRTC file sharing. 
+2023/5/29 20:37:36: Message from server: Peer LdbxiYPOz7BGDf5qAAAD said bye on room WebRTC file sharing. 
+2023/5/29 20:37:36: Message from server: Peer or server disconnected. Reason: transport close. 
+2023/5/29 20:37:36: Message from server: Peer or server disconnected. Reason: transport close. 
